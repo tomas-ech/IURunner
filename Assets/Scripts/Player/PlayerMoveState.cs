@@ -19,5 +19,12 @@ public class PlayerMoveState : PlayerState
     public override void Update()
     {
         base.Update();
+
+        player.SetMovement(horizontalInput * player.speed, player.rigidBody.velocity.y);
+
+        if (horizontalInput == 0)
+        {
+            stateMachine.ChangeState(player.idleState);
+        }
     }
 }
