@@ -26,6 +26,7 @@ public class PlayerState
     {
         Debug.Log("Actualmente en: " + animBoolName);
         horizontalInput = Input.GetAxisRaw("Horizontal");
+        player.animator.SetFloat("VerticalVelocity", player.rigidBody.velocity.y);
     }
 
     public virtual void Exit()

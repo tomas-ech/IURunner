@@ -4,6 +4,15 @@ public class Player : MonoBehaviour
 {
     [Header("Player Stats")]
     public float speed = 10f;
+    public float jumpSpeed = 5f;
+
+    private float currentDirection = 1f;
+    private bool isForward = true;
+
+    [Header("Collisions")]
+    [SerializeField] private Transform groundChecker;
+    [SerializeField] private float checkDistance;
+    [SerializeField] private LayerMask groundMask;
 
     #region Components
     public Animator animator {  get; private set; }
@@ -40,5 +49,33 @@ public class Player : MonoBehaviour
     public void SetMovement(float horizontalVelocity, float verticalVelocity)
     {
         rigidBody.velocity  = new Vector2(horizontalVelocity, verticalVelocity);
+
+        if (horizontalVelocity > 0 && !isForward)
+        {
+            ChangeDirection();
+        }
+        else if (horizontalVelocity < 0 && isForward)
+        {
+            ChangeDirection();
+        }
+    }
+
+    private void ChangeDirection()
+    {
+        currentDirection *= -1;
+        isForward = !isForward;
+        transform.Rotate(0, 180, 0);
+
+    }
+
+    public bool IsOnGround()
+    {
+        bool isGround = Physics2D.Raycast(groundChecker.position, Vector2.down, checkDistance, groundMask);
+        return isGround;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(groundChecker.position, new Vector3(groundChecker.position.x, groundChecker.position.y - checkDistance));
     }
 }

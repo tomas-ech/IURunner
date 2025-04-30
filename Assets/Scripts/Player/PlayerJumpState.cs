@@ -11,6 +11,8 @@ public class PlayerJumpState : PlayerState
     public override void Enter()
     {
         base.Enter();
+
+        player.rigidBody.velocity = new Vector2(player.rigidBody.velocity.x, player.jumpSpeed);
     }
 
     public override void Exit()
@@ -21,5 +23,10 @@ public class PlayerJumpState : PlayerState
     public override void Update()
     {
         base.Update();
+
+        if (player.IsOnGround() && player.rigidBody.velocity.y == 0)
+        {
+            stateMachine.ChangeState(player.idleState);
+        }
     }
 }
