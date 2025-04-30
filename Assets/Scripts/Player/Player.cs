@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
     {
         currentDirection *= -1;
         isForward = !isForward;
-        transform.Rotate(0, 180, 0);
+        animator.gameObject.transform.Rotate(0, 180, 0);
 
     }
 
