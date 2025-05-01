@@ -50,9 +50,12 @@ TagManager:
   - name: Ground
     uniqueID: 3496990693
     locked: 0
+  - name: Tree
+    uniqueID: 82690929
+    locked: 0
   - name: Player
     uniqueID: 2285640683
     locked: 0
-  - name: Tree
-    uniqueID: 82690929
+  - name: CloserTree
+    uniqueID: 460613231
     locked: 0

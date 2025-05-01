@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
     private bool isForward = true;
 
     [Header("Collisions")]
-    [SerializeField] private Transform groundChecker;
+    [SerializeField] private Transform groundCheckerForward;
+    [SerializeField] private Transform groundCheckerBack;
     [SerializeField] private float checkDistance;
     [SerializeField] private LayerMask groundMask;
 
@@ -70,12 +71,14 @@ public class Player : MonoBehaviour
 
     public bool IsOnGround()
     {
-        bool isGround = Physics2D.Raycast(groundChecker.position, Vector2.down, checkDistance, groundMask);
-        return isGround;
+        bool isGroundF = Physics2D.Raycast(groundCheckerForward.position, Vector2.down, checkDistance, groundMask);
+        bool isGroundB = Physics2D.Raycast(groundCheckerBack.position, Vector2.down, checkDistance, groundMask);
+        return isGroundF || isGroundB;
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine(groundChecker.position, new Vector3(groundChecker.position.x, groundChecker.position.y - checkDistance));
+        Gizmos.DrawLine(groundCheckerForward.position, new Vector3(groundCheckerForward.position.x, groundCheckerForward.position.y - checkDistance));
+        Gizmos.DrawLine(groundCheckerBack.position, new Vector3(groundCheckerBack.position.x, groundCheckerBack.position.y - checkDistance));
     }
 }
