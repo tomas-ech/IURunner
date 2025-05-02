@@ -813,6 +813,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68229ccfd263bf14a8d19562c618fc94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  experience: 0
   speed: 2
   jumpSpeed: 5
   groundCheckerForward: {fileID: 309205183}
@@ -1878,7 +1880,7 @@ Transform:
   m_GameObject: {fileID: 778184968}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3192772, y: 0.53, z: -10}
+  m_LocalPosition: {x: -0.3194392, y: 0.53, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2158,7 +2160,7 @@ Transform:
   m_GameObject: {fileID: 799146359}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3192777, y: 0.28000003, z: -10}
+  m_LocalPosition: {x: -0.31944525, y: 0.28000003, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2835,7 +2837,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &951560016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2914,7 +2916,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980972357}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -3584,9 +3586,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76bae4f8211e2e343990361943c7a084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 230805174}
   lifeBar: {fileID: 140774749}
   expBar: {fileID: 1278775151}
+  playerPortrait: {fileID: 125508876}
   score: {fileID: 400088560}
+  lifeText: {fileID: 1252900365}
+  expText: {fileID: 1574667394}
+  endGameText: {fileID: 1282777580}
+  endGameView: {fileID: 980972359}
 --- !u!1 &1363315680
 GameObject:
   m_ObjectHideFlags: 0

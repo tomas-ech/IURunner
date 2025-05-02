@@ -20,9 +20,11 @@ public class SceneTransition : MonoBehaviour
 
     private void DissolveImage()
     {
+        
         LeanTween.alphaCanvas(transitionImage, 0f, enterDuration).setOnComplete(() =>
         {
             ChangeInteraction(false);
+            Debug.Log("llamando");
         });
     }
 
