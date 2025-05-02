@@ -1,10 +1,15 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     [Header("Player Stats")]
+    public float health = 100f;
+    public float experience = 0f;
     public float speed = 10f;
     public float jumpSpeed = 5f;
+
+    public Action onStatsChange = null;
 
     private float currentDirection = 1f;
     private bool isForward = true;
@@ -45,6 +50,12 @@ public class Player : MonoBehaviour
     private void Update()
     {
         stateMachine.currentState.Update();
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            health -= 25;
+            onStatsChange.Invoke();
+        }
     }
 
     public void SetMovement(float horizontalVelocity, float verticalVelocity)

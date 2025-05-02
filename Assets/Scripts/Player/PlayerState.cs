@@ -19,12 +19,10 @@ public class PlayerState
     public virtual void Enter()
     {
         player.animator.SetBool(animBoolName, true);
-        Debug.Log("Entrando a: " + animBoolName);
     }
 
     public virtual void Update()
     {
-        Debug.Log("Actualmente en: " + animBoolName);
         horizontalInput = Input.GetAxisRaw("Horizontal");
         player.animator.SetFloat("VerticalVelocity", player.rigidBody.velocity.y);
     }
@@ -32,6 +30,5 @@ public class PlayerState
     public virtual void Exit()
     {
         player.animator.SetBool(animBoolName, false);
-        Debug.Log("Saliendo de: " + animBoolName);
     }
 }
