@@ -24,6 +24,12 @@ public class PlayerJumpState : PlayerState
     {
         base.Update();
 
+        if (horizontalInput != 0)
+        {
+            player.SetMovement(horizontalInput * player.speed, player.rigidBody.velocity.y);
+        }
+
+
         if (player.IsOnGround() && player.rigidBody.velocity.y == 0)
         {
             stateMachine.ChangeState(player.idleState);
