@@ -49,11 +49,34 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        if(transform.position.y <= -1.6)
+        {
+            PlayerDeath();
+            Destroy(gameObject);
+            return;
+        }
+
         stateMachine.currentState.Update();
+
 
         if(Input.GetKeyDown(KeyCode.Q))
         {
-            health -= 25;
+            ReceiveDamage(25);
+        }
+    }
+
+    private void PlayerDeath()
+    {
+        health = 0;
+        onStatsChange.Invoke();
+        rigidBody.velocity = Vector3.zero;
+    }
+
+    public void ReceiveDamage(int damage)
+    {
+        if (health > 0)
+        {
+            health -= damage;
             onStatsChange.Invoke();
         }
     }

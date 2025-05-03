@@ -23,7 +23,10 @@ public class PlayerState
 
     public virtual void Update()
     {
-        horizontalInput = Input.GetAxisRaw("Horizontal");
+        if (player.health > 0)
+        {
+            horizontalInput = Input.GetAxisRaw("Horizontal");
+        }
         player.animator.SetFloat("VerticalVelocity", player.rigidBody.velocity.y);
     }
 

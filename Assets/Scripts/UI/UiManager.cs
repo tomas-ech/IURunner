@@ -8,14 +8,18 @@ public class UiManager : MonoBehaviour
 {
     [SerializeField] private Player player;
 
+    #region Images
     [SerializeField] private Image lifeBar;
     [SerializeField] private Image expBar;
     [SerializeField] private Image playerPortrait;
+    #endregion
 
+    #region Texts
     [SerializeField] private TextMeshProUGUI score;
     [SerializeField] private TextMeshProUGUI lifeText;
     [SerializeField] private TextMeshProUGUI expText;
     [SerializeField] private TextMeshProUGUI endGameText;
+    #endregion
 
     [SerializeField] private CanvasGroup endGameView;
 
@@ -45,6 +49,8 @@ public class UiManager : MonoBehaviour
             endGameText.text = "Game Over";
             endGameText.color = Color.red;
             LeanTween.alphaCanvas(endGameView, 1, 1.5f);
+            endGameView.interactable = true;
+            endGameView.blocksRaycasts = true;
         }
     }
 
