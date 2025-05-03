@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4ea7781655e903468f2d6d30659ed73
+guid: 4505d4b29e9ba6d419115e258163f0b1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HitGround-Anim_0
+      name: Eat-Anim_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 3
+        y: 19
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aefa7a6183b192748aa879ea288b27c7
-      internalID: -117232912
+      spriteID: 28c5ed46c47733a40af2f09eca87cdbb
+      internalID: -1622082102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitGround-Anim_1
+      name: Eat-Anim_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 27
+        y: 19
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff7271c49c5ad944bcdc328664884ac
-      internalID: -1381570246
+      spriteID: b240aba8df135be46a6631db6418515d
+      internalID: -1863441318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitGround-Anim_2
+      name: Eat-Anim_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 51
+        y: 19
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0fa3dc67e11c3346bd7153bb2f02db4
-      internalID: 1759045248
+      spriteID: 0d2ae07e2a9ac554d975966b85652d0f
+      internalID: 1073647347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HitGround-Anim_3
+      name: Eat-Anim_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
+        x: 74
+        y: 19
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,113 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10856139b30f97e4bb4833abb8622bba
-      internalID: -926745654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HitGround-Anim_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7b1097b1288df84bb8a61e8fd1a0bf4
-      internalID: 1793868245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HitGround-Anim_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9fbcd3eb5356454ea81ffc5cef816f3
-      internalID: -180504600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HitGround-Anim_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bf22c827b84b6146bc9e0ee5ebb07c4
-      internalID: -1031765765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HitGround-Anim_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4bc269747d676c4a928cf69aa680e81
-      internalID: -1256588149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HitGround-Anim_8
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4694e4bc6ad791840a91baf1c03c4db5
-      internalID: -1246316370
+      spriteID: c49b1020a8581aa41b0b4666c0ac30f2
+      internalID: -676859729
       vertices: []
       indices: 
       edges: []
@@ -322,15 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HitGround-Anim_0: -117232912
-      HitGround-Anim_1: -1381570246
-      HitGround-Anim_2: 1759045248
-      HitGround-Anim_3: -926745654
-      HitGround-Anim_4: 1793868245
-      HitGround-Anim_5: -180504600
-      HitGround-Anim_6: -1031765765
-      HitGround-Anim_7: -1256588149
-      HitGround-Anim_8: -1246316370
+      Eat-Anim_0: -1622082102
+      Eat-Anim_1: -1863441318
+      Eat-Anim_2: 1073647347
+      Eat-Anim_3: -676859729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -23,7 +23,7 @@ public class PlayerState
 
     public virtual void Update()
     {
-        if (player.health > 0)
+        if (player.Health > 0)
         {
             horizontalInput = Input.GetAxisRaw("Horizontal");
         }

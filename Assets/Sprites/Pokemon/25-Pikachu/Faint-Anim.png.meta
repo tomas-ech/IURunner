@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b693e8733e4fe449a82a680dd4ef8e8
+guid: f9c7d970ef8929744aaa18ddc7b3e3c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle-Anim_0
+      name: Faint-Anim_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 280
-        width: 24
-        height: 40
+        x: 12
+        y: 294
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff731ed36a9d3f940b18bb1373c923a2
-      internalID: -1399298854
+      spriteID: e0d365637349a1d4cb911ffd75d8a80d
+      internalID: 1911051306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_1
+      name: Faint-Anim_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 280
-        width: 24
-        height: 40
+        x: 50
+        y: 293
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43f0d4d22eeb1542a382cdcb80a92c9
-      internalID: 2050973348
+      spriteID: f27f6521e90ca94439c3ce3a13dc2e06
+      internalID: -72946701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_2
+      name: Faint-Anim_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 280
-        width: 24
-        height: 40
+        x: 85
+        y: 292
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5151ae2ab1e6a74a8455987c9fbc309
-      internalID: 101763187
+      spriteID: 95b78feadb798af468ffba258a5f9036
+      internalID: 1571271150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_3
+      name: Faint-Anim_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 280
-        width: 24
-        height: 40
+        x: 124
+        y: 292
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db5dd29a8862bc4ebdb2c9f9697dfbb
-      internalID: -1463471906
+      spriteID: 925606a25b9303841bda7c8a454e1551
+      internalID: -741794551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_4
+      name: Faint-Anim_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 280
-        width: 24
-        height: 40
+        x: 12
+        y: 254
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d6e9d5b56e812a4ab5ffba1e4a7e79a
-      internalID: -123321764
+      spriteID: f35c8315949f9c44998b9847e9d6e8a6
+      internalID: 700594481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_5
+      name: Faint-Anim_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 240
-        width: 24
-        height: 40
+        x: 50
+        y: 253
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bdd6aa83915a1b4eb64e60c46fa1358
-      internalID: -1200575487
+      spriteID: e5e61c285a13ded4688e9a22ca6b0c68
+      internalID: -869932511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_6
+      name: Faint-Anim_6
       rect:
         serializedVersion: 2
-        x: 24
-        y: 240
-        width: 24
-        height: 40
+        x: 85
+        y: 252
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b81ff9b3caa0644baab71eee9e2085c
-      internalID: 1821159192
+      spriteID: 2040c4982b274f44482bb0762ffd39f6
+      internalID: 867893870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_7
+      name: Faint-Anim_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 240
-        width: 24
-        height: 40
+        x: 124
+        y: 252
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04cff8db0038d9c46b90eedff1bf57f3
-      internalID: -1850843039
+      spriteID: 2c7141ea600dddd479f6340dd4dd22b8
+      internalID: 1159244210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_8
+      name: Faint-Anim_8
       rect:
         serializedVersion: 2
-        x: 72
-        y: 240
-        width: 24
-        height: 40
+        x: 6
+        y: 214
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4de89cf0c37e86b448a51cf2b403bfe4
-      internalID: 2023263783
+      spriteID: bd502e4e6d71b5e4eae6e84a79b3bf90
+      internalID: 284546504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_9
+      name: Faint-Anim_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 240
-        width: 24
-        height: 40
+        x: 41
+        y: 213
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30876650c631a2d4b83fbc754f67585b
-      internalID: -1815811712
+      spriteID: 3229ee1b56a6da04ea77e901a9440314
+      internalID: 1974855838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_10
+      name: Faint-Anim_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 200
-        width: 24
-        height: 40
+        x: 83
+        y: 212
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cf279b085e75bd4ca9ff56508108d5b
-      internalID: 1002965584
+      spriteID: abcc804110d8c46418e206eba64510f2
+      internalID: 1469336756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_11
+      name: Faint-Anim_11
       rect:
         serializedVersion: 2
-        x: 24
-        y: 200
-        width: 24
-        height: 40
+        x: 124
+        y: 212
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa9a5b4b762220c4bb2996ec1053f6da
-      internalID: -1244860429
+      spriteID: 59db7d9353dc893428ee07c070b3730c
+      internalID: 1074905177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_12
+      name: Faint-Anim_12
       rect:
         serializedVersion: 2
-        x: 48
-        y: 200
-        width: 24
-        height: 40
+        x: 12
+        y: 174
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d0dc5a3a8227741817a1f5e800c965
-      internalID: -562036778
+      spriteID: 49429354502cb8e4fb98db440c7ae5e0
+      internalID: 128478666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_13
+      name: Faint-Anim_13
       rect:
         serializedVersion: 2
-        x: 72
-        y: 200
-        width: 24
-        height: 40
+        x: 50
+        y: 173
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1feaa7cfc7b487a48a3c6b8589993e98
-      internalID: 169521849
+      spriteID: 8bc5a3d8ec4944b4b8316f64a29d1b83
+      internalID: 1968206779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_14
+      name: Faint-Anim_14
       rect:
         serializedVersion: 2
-        x: 96
-        y: 200
-        width: 24
-        height: 40
+        x: 85
+        y: 172
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e624c5f5e5f48244a33d74975075026
-      internalID: -940148898
+      spriteID: 4621ab89c0e87c14aafe62e9ec5b6cc2
+      internalID: -1292749660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_15
+      name: Faint-Anim_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 24
-        height: 40
+        x: 124
+        y: 172
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79df2ffc6802ad848bfdc8747d36ee9d
-      internalID: 653275754
+      spriteID: 659c6b5a0150dfc47a2b84359be9a429
+      internalID: 832068644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_16
+      name: Faint-Anim_16
       rect:
         serializedVersion: 2
-        x: 24
-        y: 160
-        width: 24
-        height: 40
+        x: 12
+        y: 134
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aea411138c0eb141a02b161f6f223cb
-      internalID: 2144688923
+      spriteID: d7b26a64fa4fd73418fa97918330ba92
+      internalID: -722909493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_17
+      name: Faint-Anim_17
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 24
-        height: 40
+        x: 50
+        y: 133
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 506574b857a78584db679e801aecfd29
-      internalID: 99637220
+      spriteID: fa46d26ed48be5f4eb2a12389c9fa9ff
+      internalID: -1889050111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_18
+      name: Faint-Anim_18
       rect:
         serializedVersion: 2
-        x: 72
-        y: 160
-        width: 24
-        height: 40
+        x: 85
+        y: 132
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -515,20 +515,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5919624a989a9b74ab78e0cf1d52da31
-      internalID: 1584037835
+      spriteID: 6c995704a736a4f478e865d04c574bc7
+      internalID: -1425969085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_19
+      name: Faint-Anim_19
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 24
-        height: 40
+        x: 124
+        y: 132
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -536,20 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56fd74863f3883b448a7992dbfc8db01
-      internalID: 105190957
+      spriteID: d1fcfa5855b37b048bb0245b02e426ef
+      internalID: -1288009452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_20
+      name: Faint-Anim_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 120
-        width: 24
-        height: 40
+        x: 12
+        y: 94
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -557,20 +557,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f50a221332706f54092b2ef031da8f10
-      internalID: 1419122099
+      spriteID: c0055d0b06b12f64e8662566b75c2c5b
+      internalID: 258198049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_21
+      name: Faint-Anim_21
       rect:
         serializedVersion: 2
-        x: 24
-        y: 120
-        width: 24
-        height: 40
+        x: 50
+        y: 93
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +578,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b3c283e32196bb46b6768d07e05372f
-      internalID: -1703821225
+      spriteID: d1b36f58f599afa4c8c44d0c170067fd
+      internalID: 661977355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_22
+      name: Faint-Anim_22
       rect:
         serializedVersion: 2
-        x: 48
-        y: 120
-        width: 24
-        height: 40
+        x: 85
+        y: 92
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -599,20 +599,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef1b31afa04abb4f936685245bde69b
-      internalID: 2115397003
+      spriteID: 20e2af59e4fbce24188236d0c2f7938f
+      internalID: -921823571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_23
+      name: Faint-Anim_23
       rect:
         serializedVersion: 2
-        x: 72
-        y: 120
-        width: 24
-        height: 40
+        x: 124
+        y: 92
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,20 +620,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 641a9d68866a6a44f80a1ac5e16a0242
-      internalID: 2008602675
+      spriteID: e1efc3d3915d55f45b802a68a926d272
+      internalID: -27464844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_24
+      name: Faint-Anim_24
       rect:
         serializedVersion: 2
-        x: 96
-        y: 120
-        width: 24
-        height: 40
+        x: 12
+        y: 54
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,20 +641,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6eb86bafd0fe184fb1a5abbc352186f
-      internalID: -1919275969
+      spriteID: 9ab8dbff5fe4f3b4f9e834ab3ae45cfe
+      internalID: 1374626256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_25
+      name: Faint-Anim_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
-        width: 24
-        height: 40
+        x: 50
+        y: 53
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,20 +662,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1051bd5cb3fabe4082be0cc1e8cc4a0
-      internalID: -15861121
+      spriteID: a6d74021adfe35549a9eee85d5b54349
+      internalID: 49959136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_26
+      name: Faint-Anim_26
       rect:
         serializedVersion: 2
-        x: 24
-        y: 80
-        width: 24
-        height: 40
+        x: 85
+        y: 52
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -683,20 +683,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 693dca371262dae40b758487177d866c
-      internalID: -1054340522
+      spriteID: f3f3b83edb71b5d40a12dcf1886c0976
+      internalID: -193831530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_27
+      name: Faint-Anim_27
       rect:
         serializedVersion: 2
-        x: 48
-        y: 80
-        width: 24
-        height: 40
+        x: 124
+        y: 52
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,20 +704,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a0652d5efdff84c955a32a99a69140
-      internalID: 1911173828
+      spriteID: 6702fe3e196c96f4f97899f2f3503065
+      internalID: 923461555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_28
+      name: Faint-Anim_28
       rect:
         serializedVersion: 2
-        x: 72
-        y: 80
-        width: 24
-        height: 40
+        x: 12
+        y: 14
+        width: 22
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,20 +725,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6c2c7a92fb960b468dc4738cc6befb4
-      internalID: -526075351
+      spriteID: 1e484c448ad226543979885d0c278e8e
+      internalID: 117943210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_29
+      name: Faint-Anim_29
       rect:
         serializedVersion: 2
-        x: 96
-        y: 80
-        width: 24
-        height: 40
+        x: 50
+        y: 13
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -746,20 +746,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5456e9ab5fbe26c438cb8f92cc92b632
-      internalID: -1669303561
+      spriteID: 42ecd375cb8973f449d60551d06e5b89
+      internalID: 2009034273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_30
+      name: Faint-Anim_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 40
-        width: 24
-        height: 40
+        x: 85
+        y: 12
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90205ffd22b357a48b62c81dd576708b
-      internalID: 1521466730
+      spriteID: 01654b782fdfaa84187d4df252e2153a
+      internalID: 1552970074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle-Anim_31
+      name: Faint-Anim_31
       rect:
         serializedVersion: 2
-        x: 24
-        y: 40
-        width: 24
-        height: 40
+        x: 124
+        y: 12
+        width: 32
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -788,176 +788,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 183369f05414924449476bfbf2e1b0c0
-      internalID: -2090863581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_32
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 40
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2d1fe28a7dc59a498bcf7328b23525b
-      internalID: -1512448251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_33
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 40
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c69d813a92793d84c90959a9eb8ac63c
-      internalID: -47855145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_34
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 40
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae2f386da9b638c4da33f8f0a0691de8
-      internalID: 1301096635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_35
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6014f6debcb29cc48bc2fd4e56184dc4
-      internalID: 2078675008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_36
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1af84a8ee05522d48a6eef50d963bee0
-      internalID: -117751362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_37
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f887c64c27366a34a992b52192b1bf14
-      internalID: 68399122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_38
-      rect:
-        serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4143928967bf34743a1153d706649cb9
-      internalID: 181707189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle-Anim_39
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06c0be4d70eabd74badfd7123ab949b3
-      internalID: 1329276915
+      spriteID: 7257252c14d48a045a3041638feb6ae8
+      internalID: -1362344429
       vertices: []
       indices: 
       edges: []
@@ -973,46 +805,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle-Anim_0: -1399298854
-      Idle-Anim_1: 2050973348
-      Idle-Anim_10: 1002965584
-      Idle-Anim_11: -1244860429
-      Idle-Anim_12: -562036778
-      Idle-Anim_13: 169521849
-      Idle-Anim_14: -940148898
-      Idle-Anim_15: 653275754
-      Idle-Anim_16: 2144688923
-      Idle-Anim_17: 99637220
-      Idle-Anim_18: 1584037835
-      Idle-Anim_19: 105190957
-      Idle-Anim_2: 101763187
-      Idle-Anim_20: 1419122099
-      Idle-Anim_21: -1703821225
-      Idle-Anim_22: 2115397003
-      Idle-Anim_23: 2008602675
-      Idle-Anim_24: -1919275969
-      Idle-Anim_25: -15861121
-      Idle-Anim_26: -1054340522
-      Idle-Anim_27: 1911173828
-      Idle-Anim_28: -526075351
-      Idle-Anim_29: -1669303561
-      Idle-Anim_3: -1463471906
-      Idle-Anim_30: 1521466730
-      Idle-Anim_31: -2090863581
-      Idle-Anim_32: -1512448251
-      Idle-Anim_33: -47855145
-      Idle-Anim_34: 1301096635
-      Idle-Anim_35: 2078675008
-      Idle-Anim_36: -117751362
-      Idle-Anim_37: 68399122
-      Idle-Anim_38: 181707189
-      Idle-Anim_39: 1329276915
-      Idle-Anim_4: -123321764
-      Idle-Anim_5: -1200575487
-      Idle-Anim_6: 1821159192
-      Idle-Anim_7: -1850843039
-      Idle-Anim_8: 2023263783
-      Idle-Anim_9: -1815811712
+      Faint-Anim_0: 1911051306
+      Faint-Anim_1: -72946701
+      Faint-Anim_10: 1469336756
+      Faint-Anim_11: 1074905177
+      Faint-Anim_12: 128478666
+      Faint-Anim_13: 1968206779
+      Faint-Anim_14: -1292749660
+      Faint-Anim_15: 832068644
+      Faint-Anim_16: -722909493
+      Faint-Anim_17: -1889050111
+      Faint-Anim_18: -1425969085
+      Faint-Anim_19: -1288009452
+      Faint-Anim_2: 1571271150
+      Faint-Anim_20: 258198049
+      Faint-Anim_21: 661977355
+      Faint-Anim_22: -921823571
+      Faint-Anim_23: -27464844
+      Faint-Anim_24: 1374626256
+      Faint-Anim_25: 49959136
+      Faint-Anim_26: -193831530
+      Faint-Anim_27: 923461555
+      Faint-Anim_28: 117943210
+      Faint-Anim_29: 2009034273
+      Faint-Anim_3: -741794551
+      Faint-Anim_30: 1552970074
+      Faint-Anim_31: -1362344429
+      Faint-Anim_4: 700594481
+      Faint-Anim_5: -869932511
+      Faint-Anim_6: 867893870
+      Faint-Anim_7: 1159244210
+      Faint-Anim_8: 284546504
+      Faint-Anim_9: 1974855838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

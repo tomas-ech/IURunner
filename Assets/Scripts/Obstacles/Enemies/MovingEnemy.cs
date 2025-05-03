@@ -6,7 +6,6 @@ public class MovingEnemy : Enemy
 {
     [Header("Stats")]
     [SerializeField] private float speed;
-    [SerializeField] private float rotationSpeed;
 
     [SerializeField] private Transform[] pointsToMove;
 
@@ -21,7 +20,15 @@ public class MovingEnemy : Enemy
     {
         transform.position = Vector3.MoveTowards(transform.position, pointsToMove[index].position, speed * Time.deltaTime);
 
-        if(Vector2.Distance(transform.position, pointsToMove[index].position) < 0.2f)
+        if (pointsToMove[index].localPosition.x <= transform.localPosition.x && isForward)
+        {
+            ChangeDirection();
+        } else if (pointsToMove[index].localPosition.x > transform.localPosition.x && !isForward)
+        {
+            ChangeDirection();
+        }
+
+            if (Vector2.Distance(transform.position, pointsToMove[index].position) < 0.2f)
         {
             index++;
 
