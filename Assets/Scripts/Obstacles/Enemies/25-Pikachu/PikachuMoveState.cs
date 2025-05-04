@@ -16,10 +16,8 @@ public class PikachuMoveState : EnemyState
     {
         base.Enter();
 
-        triggerAttack = RandomGenerator.GetRandomInt(0, 1) == 1;
+        triggerAttack = RandomGenerator.GetRandomInt(0, 2) != 0;
         stateTimer = enemyPikachu.moveTime;
-
-        Debug.Log("It will attack: " + triggerAttack);
     }
     public override void Update()
     {

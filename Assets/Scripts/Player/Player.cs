@@ -69,6 +69,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void UpdateScore(int amount)
+    {
+        Score += amount;
+        onStatsChange.Invoke();
+    }
+
     private void PlayerDeath()
     {
         Health = 0;
