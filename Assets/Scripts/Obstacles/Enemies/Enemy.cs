@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-
+    [Header("Enemy Stats")]
+    public float speed = 2f;
+    public float idleTime = 2f;
     [SerializeField] private int damage = 25;
 
     [SerializeField] protected bool canDoDamage = true;
@@ -21,14 +23,19 @@ public class Enemy : MonoBehaviour
     public EnemyStateMachine stateMachine {  get; private set; }
 
     protected bool isForward = true;
-    private float currentDirection = 1f;
+    public float currentDirection = 1f;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         stateMachine = new EnemyStateMachine();
     }
 
-    private void Update()
+    protected virtual void Start()
+    {
+        
+    }
+
+    protected virtual void Update()
     {
         stateMachine.currentState.Update();
     }
@@ -45,19 +52,25 @@ public class Enemy : MonoBehaviour
         return isAWall;
     }
 
-    protected void DoDamage(Collider2D collision)
+    public void SetMovement(float horizontalVelocity, float verticalVelocity)
     {
-        if (collision.GetComponent<Player>() != null || canDoDamage)
+        rigidBody.velocity = new Vector2(horizontalVelocity, verticalVelocity);
+
+        if (horizontalVelocity > 0 && !isForward)
         {
-            collision.GetComponent<Player>().ReceiveDamage(damage);
+            ChangeDirection();
+        }
+        else if (horizontalVelocity < 0 && isForward)
+        {
+            ChangeDirection();
         }
     }
 
-    protected void ChangeDirection()
+    public void ChangeDirection()
     {
         currentDirection *= -1;
         isForward = !isForward;
-        animator.gameObject.transform.Rotate(0, 180, 0);
+        transform.Rotate(0, 180, 0);
 
     }
 
@@ -66,14 +79,9 @@ public class Enemy : MonoBehaviour
         animator.SetBool(animBoolName, isActive);
     }
 
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
-    {
-        DoDamage(collision);
-    }
-
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(groundChecker.position, new Vector3(groundChecker.position.x, groundChecker.position.y - groundDistance));
-        Gizmos.DrawLine(wallChecker.position, new Vector3(wallChecker.position.x + wallDistance, wallChecker.position.y));
+        Gizmos.DrawLine(wallChecker.position, new Vector3(wallChecker.position.x + wallDistance * currentDirection, wallChecker.position.y));
     }
 }
