@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerJumpState : PlayerState
@@ -13,6 +11,7 @@ public class PlayerJumpState : PlayerState
         base.Enter();
 
         player.rigidBody.velocity = new Vector2(player.rigidBody.velocity.x, player.jumpSpeed);
+        AudioManager.instance.PlaySoundEffect(RandomGenerator.GetRandomInt(3, 4));
     }
 
     public override void Exit()

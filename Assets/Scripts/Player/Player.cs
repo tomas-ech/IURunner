@@ -80,6 +80,7 @@ public class Player : MonoBehaviour
         Health = 0;
         onStatsChange.Invoke();
         rigidBody.velocity = Vector3.zero;
+        AudioManager.instance.PlaySoundEffect(8);
     }
 
     public void ReceiveDamage(int damage)

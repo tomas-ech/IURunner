@@ -9,11 +9,18 @@ public static class RandomGenerator
         return randomNumber;
     }
 
+    public static float GetRandomFloat(float min, float max)
+    {
+        float randomNumber = Random.Range(min, max);
+
+        return randomNumber;
+    }
+
     public static T GetRandomElement<T>(T[] elements)
     {
         if (elements == null || elements.Length == 0) return default;
 
         return elements[GetRandomInt(0, elements.Length)];
     }
-    
+
 }

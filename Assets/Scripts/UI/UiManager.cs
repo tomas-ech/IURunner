@@ -22,11 +22,14 @@ public class UiManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI endGameText;
     #endregion
 
+    private bool gameIsMuted = false;
+
     private void Start()
     {
         InitializePlayerUi();
 
         player.onStatsChange += UpdatePlayerUi;
+        AudioManager.instance.PlayBackgroundMusic(1);
     }
 
     private void InitializePlayerUi()
@@ -58,7 +61,8 @@ public class UiManager : MonoBehaviour
         textToUpdate.text = (amount).ToString() + "%";
 
         LeanTween.value(gameObject, imageToUpdate.fillAmount, amount / 100, 1f)
-            .setOnUpdate((float value) => {
+            .setOnUpdate((float value) =>
+            {
                 if (imageToUpdate != null)
                 {
                     imageToUpdate.fillAmount = value;
@@ -66,6 +70,20 @@ public class UiManager : MonoBehaviour
             })
             .setEase(LeanTweenType.easeInOutCubic);
 
+    }
+
+    public void MuteButton()
+    {
+        gameIsMuted = !gameIsMuted;
+
+        if (gameIsMuted)
+        {
+            AudioListener.volume = 0;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }
     }
 
     private void OnDestroy()

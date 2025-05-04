@@ -15,7 +15,6 @@ public class VulpixAttackState : EnemyState
     {
         base.Enter();
         stateTimer = enemyVulpix.attackTime;
-        Debug.Log("Atacada");
     }
     public override void Update()
     {

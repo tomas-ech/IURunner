@@ -48,5 +48,6 @@ public class EnemyVulpix : Enemy
     {
         GameObject shoot = Instantiate(attackPrefab, attackPoint.position, Quaternion.identity);
         shoot.GetComponent<ShootController>().InitializeShoot(attackDirection);
+        AudioManager.instance.PlaySoundEffect(2);
     }
 }

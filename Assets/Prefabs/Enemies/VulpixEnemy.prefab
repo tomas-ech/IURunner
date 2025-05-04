@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8525526273977252211}
   - component: {fileID: 2063322429143679766}
   - component: {fileID: 5626081298436871281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: VulpixEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4113981281867480688}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
@@ -257,7 +257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3741144475155600068}
   - component: {fileID: 7458892514314704051}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Checker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
