@@ -84,7 +84,10 @@ public class Player : MonoBehaviour
 
     public void ReceiveDamage(int damage)
     {
-        if (Health > 0)
+        if (Health - damage <= 0)
+        {
+            PlayerDeath();
+        } else
         {
             Health -= damage;
             onStatsChange.Invoke();

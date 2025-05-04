@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2206537319284580179}
   - component: {fileID: 6029289960798922121}
   - component: {fileID: 4492221454665117698}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PidgeyEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 3998105533489766151}
   - component: {fileID: 6568883258143989939}
   - component: {fileID: 4898543746445850250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,6 @@ public class UiManager : MonoBehaviour
     #region Images
     [Header("Images")]
     [SerializeField] private Image lifeBar;
-    [SerializeField] private Image expBar;
     [SerializeField] private Image playerPortrait;
     #endregion
 
@@ -20,7 +19,6 @@ public class UiManager : MonoBehaviour
     [Header("Texts")]
     [SerializeField] private TextMeshProUGUI score;
     [SerializeField] private TextMeshProUGUI lifeText;
-    [SerializeField] private TextMeshProUGUI expText;
     [SerializeField] private TextMeshProUGUI endGameText;
     #endregion
 
@@ -36,22 +34,19 @@ public class UiManager : MonoBehaviour
         lifeBar.fillAmount = 1;
         lifeText.text = (player.Health).ToString() + "%";
 
-        expBar.fillAmount = 0;
-        expText.text = (player.Experience).ToString() + "%";
-
         score.text = player.Score.ToString();
     }
 
     private void UpdatePlayerUi()
     {
         SmoothUpdate(lifeBar, lifeText, player.Health);
-        SmoothUpdate(expBar, expText, player.Experience);
         score.text = player.Score.ToString();
 
         if (player.Health <= 0)
         {
             endGameText.text = "Game Over";
             endGameText.color = Color.red;
+
             LeanTween.alphaCanvas(endGameView, 1, 1.5f);
             endGameView.interactable = true;
             endGameView.blocksRaycasts = true;

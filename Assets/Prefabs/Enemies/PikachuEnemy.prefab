@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 170883370806340710}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 1785107452242964687}
   - component: {fileID: 4466215302177042024}
   - component: {fileID: 6615030338532079338}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2976025974443061464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,8 +180,8 @@ GameObject:
   - component: {fileID: 8028289181507790263}
   - component: {fileID: 7296449241323702075}
   - component: {fileID: 8822387534903938708}
-  m_Layer: 0
-  m_Name: EnemyPikachu
+  m_Layer: 7
+  m_Name: PikachuEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
