@@ -7,17 +7,20 @@ using UnityEngine.UI;
 public class UiManager : MonoBehaviour
 {
     [SerializeField] private Player player;
+    [SerializeField] private CanvasGroup endGameView;
 
+    #region Images
+    [Header("Images")]
     [SerializeField] private Image lifeBar;
-    [SerializeField] private Image expBar;
     [SerializeField] private Image playerPortrait;
+    #endregion
 
+    #region Texts
+    [Header("Texts")]
     [SerializeField] private TextMeshProUGUI score;
     [SerializeField] private TextMeshProUGUI lifeText;
-    [SerializeField] private TextMeshProUGUI expText;
     [SerializeField] private TextMeshProUGUI endGameText;
-
-    [SerializeField] private CanvasGroup endGameView;
+    #endregion
 
     private void Start()
     {
@@ -29,22 +32,24 @@ public class UiManager : MonoBehaviour
     private void InitializePlayerUi()
     {
         lifeBar.fillAmount = 1;
-        lifeText.text = (player.health).ToString() + "%";
+        lifeText.text = (player.Health).ToString() + "%";
 
-        expBar.fillAmount = 0;
-        expText.text = (player.experience).ToString() + "%";
+        score.text = player.Score.ToString();
     }
 
     private void UpdatePlayerUi()
     {
-        SmoothUpdate(lifeBar, lifeText, player.health);
-        SmoothUpdate(expBar, expText, player.experience);
+        SmoothUpdate(lifeBar, lifeText, player.Health);
+        score.text = player.Score.ToString();
 
-        if (player.health <= 0)
+        if (player.Health <= 0)
         {
             endGameText.text = "Game Over";
             endGameText.color = Color.red;
+
             LeanTween.alphaCanvas(endGameView, 1, 1.5f);
+            endGameView.interactable = true;
+            endGameView.blocksRaycasts = true;
         }
     }
 

@@ -4,10 +4,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [Header("Player Stats")]
-    public float health = 100f;
-    public float experience = 0f;
     public float speed = 10f;
     public float jumpSpeed = 5f;
+
+    public float Health {  get; private set; }
+    public float Experience {  get; private set; }
+    public int Score {  get; private set; }
 
     public Action onStatsChange = null;
 
@@ -24,6 +26,7 @@ public class Player : MonoBehaviour
     public Animator animator {  get; private set; }
     public Rigidbody2D rigidBody {  get; private set; }
     #endregion
+
     #region States
     public PlayerStateMachine stateMachine {  get; private set; }
     public PlayerIdleState idleState { get; private set; }
@@ -42,6 +45,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        Health = 100;
         animator = GetComponentInChildren<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
         stateMachine.Initialize(idleState);
@@ -49,11 +53,43 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        if(transform.position.y <= -1.6)
+        {
+            PlayerDeath();
+            Destroy(gameObject);
+            return;
+        }
+
         stateMachine.currentState.Update();
+
 
         if(Input.GetKeyDown(KeyCode.Q))
         {
-            health -= 25;
+            ReceiveDamage(25);
+        }
+    }
+
+    public void UpdateScore(int amount)
+    {
+        Score += amount;
+        onStatsChange.Invoke();
+    }
+
+    private void PlayerDeath()
+    {
+        Health = 0;
+        onStatsChange.Invoke();
+        rigidBody.velocity = Vector3.zero;
+    }
+
+    public void ReceiveDamage(int damage)
+    {
+        if (Health - damage <= 0)
+        {
+            PlayerDeath();
+        } else
+        {
+            Health -= damage;
             onStatsChange.Invoke();
         }
     }
