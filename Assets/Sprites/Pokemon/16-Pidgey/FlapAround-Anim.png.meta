@@ -126,10 +126,10 @@ TextureImporter:
       name: FlapAround-Anim_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 280
-        width: 24
-        height: 40
+        x: 3
+        y: 299
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: FlapAround-Anim_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 280
-        width: 24
-        height: 40
+        x: 25
+        y: 299
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: FlapAround-Anim_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 280
-        width: 24
-        height: 40
+        x: 53
+        y: 298
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: FlapAround-Anim_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 280
-        width: 24
-        height: 40
+        x: 73
+        y: 298
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: FlapAround-Anim_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 280
-        width: 24
-        height: 40
+        x: 99
+        y: 300
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: FlapAround-Anim_5
       rect:
         serializedVersion: 2
-        x: 120
-        y: 280
-        width: 24
-        height: 40
+        x: 124
+        y: 299
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: FlapAround-Anim_6
       rect:
         serializedVersion: 2
-        x: 144
-        y: 280
-        width: 24
-        height: 40
+        x: 149
+        y: 299
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,10 +273,10 @@ TextureImporter:
       name: FlapAround-Anim_7
       rect:
         serializedVersion: 2
-        x: 168
-        y: 280
-        width: 24
-        height: 40
+        x: 171
+        y: 298
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: FlapAround-Anim_8
       rect:
         serializedVersion: 2
-        x: 192
-        y: 280
-        width: 24
-        height: 40
+        x: 195
+        y: 300
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,9 +316,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 216
-        y: 280
-        width: 24
-        height: 40
+        y: 298
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: FlapAround-Anim_10
       rect:
         serializedVersion: 2
-        x: 240
-        y: 280
-        width: 24
-        height: 40
+        x: 243
+        y: 299
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,10 +357,10 @@ TextureImporter:
       name: FlapAround-Anim_11
       rect:
         serializedVersion: 2
-        x: 264
-        y: 280
-        width: 24
-        height: 40
+        x: 268
+        y: 298
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: FlapAround-Anim_12
       rect:
         serializedVersion: 2
-        x: 288
-        y: 280
-        width: 24
-        height: 40
+        x: 291
+        y: 300
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +399,10 @@ TextureImporter:
       name: FlapAround-Anim_13
       rect:
         serializedVersion: 2
-        x: 312
-        y: 280
-        width: 24
-        height: 40
+        x: 315
+        y: 299
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: FlapAround-Anim_14
       rect:
         serializedVersion: 2
-        x: 336
-        y: 280
-        width: 24
-        height: 40
+        x: 338
+        y: 298
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +441,10 @@ TextureImporter:
       name: FlapAround-Anim_15
       rect:
         serializedVersion: 2
-        x: 360
-        y: 280
-        width: 24
-        height: 40
+        x: 363
+        y: 298
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: FlapAround-Anim_16
       rect:
         serializedVersion: 2
-        x: 384
-        y: 280
-        width: 24
-        height: 40
+        x: 387
+        y: 299
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: FlapAround-Anim_17
       rect:
         serializedVersion: 2
-        x: 408
-        y: 280
-        width: 24
-        height: 40
+        x: 409
+        y: 299
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: FlapAround-Anim_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 240
-        width: 24
-        height: 40
+        x: 5
+        y: 258
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: FlapAround-Anim_19
       rect:
         serializedVersion: 2
-        x: 24
-        y: 240
-        width: 24
-        height: 40
+        x: 25
+        y: 258
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: FlapAround-Anim_20
       rect:
         serializedVersion: 2
-        x: 48
-        y: 240
-        width: 24
-        height: 40
+        x: 51
+        y: 260
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,10 +567,10 @@ TextureImporter:
       name: FlapAround-Anim_21
       rect:
         serializedVersion: 2
-        x: 72
-        y: 240
-        width: 24
-        height: 40
+        x: 76
+        y: 259
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,10 +588,10 @@ TextureImporter:
       name: FlapAround-Anim_22
       rect:
         serializedVersion: 2
-        x: 96
-        y: 240
-        width: 24
-        height: 40
+        x: 101
+        y: 259
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,10 +609,10 @@ TextureImporter:
       name: FlapAround-Anim_23
       rect:
         serializedVersion: 2
-        x: 120
-        y: 240
-        width: 24
-        height: 40
+        x: 123
+        y: 258
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,10 +630,10 @@ TextureImporter:
       name: FlapAround-Anim_24
       rect:
         serializedVersion: 2
-        x: 144
-        y: 240
-        width: 24
-        height: 40
+        x: 147
+        y: 260
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,9 +652,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 168
-        y: 240
-        width: 24
-        height: 40
+        y: 258
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +672,10 @@ TextureImporter:
       name: FlapAround-Anim_26
       rect:
         serializedVersion: 2
-        x: 192
-        y: 240
-        width: 24
-        height: 40
+        x: 195
+        y: 259
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -693,10 +693,10 @@ TextureImporter:
       name: FlapAround-Anim_27
       rect:
         serializedVersion: 2
-        x: 216
-        y: 240
-        width: 24
-        height: 40
+        x: 220
+        y: 258
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -714,10 +714,10 @@ TextureImporter:
       name: FlapAround-Anim_28
       rect:
         serializedVersion: 2
-        x: 240
-        y: 240
-        width: 24
-        height: 40
+        x: 243
+        y: 260
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -735,10 +735,10 @@ TextureImporter:
       name: FlapAround-Anim_29
       rect:
         serializedVersion: 2
-        x: 264
-        y: 240
-        width: 24
-        height: 40
+        x: 267
+        y: 259
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -756,10 +756,10 @@ TextureImporter:
       name: FlapAround-Anim_30
       rect:
         serializedVersion: 2
-        x: 288
-        y: 240
-        width: 24
-        height: 40
+        x: 290
+        y: 258
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +777,10 @@ TextureImporter:
       name: FlapAround-Anim_31
       rect:
         serializedVersion: 2
-        x: 312
-        y: 240
-        width: 24
-        height: 40
+        x: 315
+        y: 258
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,10 +798,10 @@ TextureImporter:
       name: FlapAround-Anim_32
       rect:
         serializedVersion: 2
-        x: 336
-        y: 240
-        width: 24
-        height: 40
+        x: 339
+        y: 259
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -819,10 +819,10 @@ TextureImporter:
       name: FlapAround-Anim_33
       rect:
         serializedVersion: 2
-        x: 360
-        y: 240
-        width: 24
-        height: 40
+        x: 361
+        y: 259
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -840,10 +840,10 @@ TextureImporter:
       name: FlapAround-Anim_34
       rect:
         serializedVersion: 2
-        x: 384
-        y: 240
-        width: 24
-        height: 40
+        x: 389
+        y: 258
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,10 +861,10 @@ TextureImporter:
       name: FlapAround-Anim_35
       rect:
         serializedVersion: 2
-        x: 408
-        y: 255
-        width: 24
-        height: 24
+        x: 409
+        y: 258
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +882,10 @@ TextureImporter:
       name: FlapAround-Anim_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 216
-        width: 24
-        height: 24
+        x: 3
+        y: 220
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +903,10 @@ TextureImporter:
       name: FlapAround-Anim_37
       rect:
         serializedVersion: 2
-        x: 24
-        y: 216
-        width: 24
-        height: 24
+        x: 28
+        y: 219
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -924,10 +924,10 @@ TextureImporter:
       name: FlapAround-Anim_38
       rect:
         serializedVersion: 2
-        x: 48
-        y: 200
-        width: 24
-        height: 40
+        x: 53
+        y: 219
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -945,10 +945,10 @@ TextureImporter:
       name: FlapAround-Anim_39
       rect:
         serializedVersion: 2
-        x: 72
-        y: 200
-        width: 24
-        height: 40
+        x: 75
+        y: 218
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -966,10 +966,10 @@ TextureImporter:
       name: FlapAround-Anim_40
       rect:
         serializedVersion: 2
-        x: 96
-        y: 200
-        width: 24
-        height: 40
+        x: 99
+        y: 220
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -988,9 +988,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 120
-        y: 200
-        width: 24
-        height: 40
+        y: 218
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,10 +1008,10 @@ TextureImporter:
       name: FlapAround-Anim_42
       rect:
         serializedVersion: 2
-        x: 144
-        y: 200
-        width: 24
-        height: 40
+        x: 147
+        y: 219
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,10 +1029,10 @@ TextureImporter:
       name: FlapAround-Anim_43
       rect:
         serializedVersion: 2
-        x: 168
-        y: 200
-        width: 24
-        height: 40
+        x: 172
+        y: 218
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1050,10 +1050,10 @@ TextureImporter:
       name: FlapAround-Anim_44
       rect:
         serializedVersion: 2
-        x: 192
-        y: 200
-        width: 24
-        height: 40
+        x: 195
+        y: 220
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,10 +1071,10 @@ TextureImporter:
       name: FlapAround-Anim_45
       rect:
         serializedVersion: 2
-        x: 216
-        y: 200
-        width: 24
-        height: 40
+        x: 219
+        y: 219
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1092,10 +1092,10 @@ TextureImporter:
       name: FlapAround-Anim_46
       rect:
         serializedVersion: 2
-        x: 240
-        y: 200
-        width: 24
-        height: 40
+        x: 242
+        y: 218
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1113,10 +1113,10 @@ TextureImporter:
       name: FlapAround-Anim_47
       rect:
         serializedVersion: 2
-        x: 264
-        y: 200
-        width: 24
-        height: 40
+        x: 267
+        y: 218
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1134,10 +1134,10 @@ TextureImporter:
       name: FlapAround-Anim_48
       rect:
         serializedVersion: 2
-        x: 288
-        y: 200
-        width: 24
-        height: 40
+        x: 291
+        y: 219
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1155,10 +1155,10 @@ TextureImporter:
       name: FlapAround-Anim_49
       rect:
         serializedVersion: 2
-        x: 312
-        y: 200
-        width: 24
-        height: 40
+        x: 313
+        y: 219
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1176,10 +1176,10 @@ TextureImporter:
       name: FlapAround-Anim_50
       rect:
         serializedVersion: 2
-        x: 336
-        y: 200
-        width: 24
-        height: 40
+        x: 341
+        y: 218
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1197,10 +1197,10 @@ TextureImporter:
       name: FlapAround-Anim_51
       rect:
         serializedVersion: 2
-        x: 360
-        y: 200
-        width: 24
-        height: 40
+        x: 361
+        y: 218
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1218,10 +1218,10 @@ TextureImporter:
       name: FlapAround-Anim_52
       rect:
         serializedVersion: 2
-        x: 384
-        y: 200
-        width: 24
-        height: 40
+        x: 387
+        y: 220
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1239,10 +1239,10 @@ TextureImporter:
       name: FlapAround-Anim_53
       rect:
         serializedVersion: 2
-        x: 408
-        y: 200
-        width: 24
-        height: 40
+        x: 412
+        y: 219
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1260,10 +1260,10 @@ TextureImporter:
       name: FlapAround-Anim_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 24
-        height: 40
+        x: 5
+        y: 179
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1281,10 +1281,10 @@ TextureImporter:
       name: FlapAround-Anim_55
       rect:
         serializedVersion: 2
-        x: 24
-        y: 160
-        width: 24
-        height: 40
+        x: 27
+        y: 178
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1302,10 +1302,10 @@ TextureImporter:
       name: FlapAround-Anim_56
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 24
-        height: 40
+        x: 51
+        y: 180
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1324,9 +1324,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 160
-        width: 24
-        height: 40
+        y: 178
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1344,10 +1344,10 @@ TextureImporter:
       name: FlapAround-Anim_58
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 24
-        height: 40
+        x: 99
+        y: 179
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,10 +1365,10 @@ TextureImporter:
       name: FlapAround-Anim_59
       rect:
         serializedVersion: 2
-        x: 120
-        y: 160
-        width: 24
-        height: 40
+        x: 124
+        y: 178
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1386,10 +1386,10 @@ TextureImporter:
       name: FlapAround-Anim_60
       rect:
         serializedVersion: 2
-        x: 144
-        y: 160
-        width: 24
-        height: 40
+        x: 147
+        y: 180
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1407,10 +1407,10 @@ TextureImporter:
       name: FlapAround-Anim_61
       rect:
         serializedVersion: 2
-        x: 168
-        y: 160
-        width: 24
-        height: 40
+        x: 171
+        y: 179
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1428,10 +1428,10 @@ TextureImporter:
       name: FlapAround-Anim_62
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
-        width: 24
-        height: 40
+        x: 194
+        y: 178
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,10 +1449,10 @@ TextureImporter:
       name: FlapAround-Anim_63
       rect:
         serializedVersion: 2
-        x: 216
-        y: 160
-        width: 24
-        height: 40
+        x: 219
+        y: 178
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1470,10 +1470,10 @@ TextureImporter:
       name: FlapAround-Anim_64
       rect:
         serializedVersion: 2
-        x: 240
-        y: 160
-        width: 24
-        height: 40
+        x: 243
+        y: 179
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1491,10 +1491,10 @@ TextureImporter:
       name: FlapAround-Anim_65
       rect:
         serializedVersion: 2
-        x: 264
-        y: 160
-        width: 24
-        height: 40
+        x: 265
+        y: 179
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1512,10 +1512,10 @@ TextureImporter:
       name: FlapAround-Anim_66
       rect:
         serializedVersion: 2
-        x: 288
-        y: 160
-        width: 24
-        height: 40
+        x: 293
+        y: 178
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1533,10 +1533,10 @@ TextureImporter:
       name: FlapAround-Anim_67
       rect:
         serializedVersion: 2
-        x: 312
-        y: 160
-        width: 24
-        height: 40
+        x: 313
+        y: 178
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1554,10 +1554,10 @@ TextureImporter:
       name: FlapAround-Anim_68
       rect:
         serializedVersion: 2
-        x: 336
-        y: 160
-        width: 24
-        height: 40
+        x: 339
+        y: 180
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1575,10 +1575,10 @@ TextureImporter:
       name: FlapAround-Anim_69
       rect:
         serializedVersion: 2
-        x: 360
-        y: 160
-        width: 24
-        height: 40
+        x: 364
+        y: 179
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1596,10 +1596,10 @@ TextureImporter:
       name: FlapAround-Anim_70
       rect:
         serializedVersion: 2
-        x: 384
-        y: 160
-        width: 24
-        height: 40
+        x: 389
+        y: 179
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1617,10 +1617,10 @@ TextureImporter:
       name: FlapAround-Anim_71
       rect:
         serializedVersion: 2
-        x: 408
-        y: 160
-        width: 24
-        height: 40
+        x: 411
+        y: 178
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1638,10 +1638,10 @@ TextureImporter:
       name: FlapAround-Anim_72
       rect:
         serializedVersion: 2
-        x: 0
-        y: 120
-        width: 24
-        height: 40
+        x: 3
+        y: 140
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1660,9 +1660,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 120
-        width: 24
-        height: 40
+        y: 138
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1680,10 +1680,10 @@ TextureImporter:
       name: FlapAround-Anim_74
       rect:
         serializedVersion: 2
-        x: 48
-        y: 120
-        width: 24
-        height: 40
+        x: 51
+        y: 139
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1701,10 +1701,10 @@ TextureImporter:
       name: FlapAround-Anim_75
       rect:
         serializedVersion: 2
-        x: 72
-        y: 120
-        width: 24
-        height: 40
+        x: 76
+        y: 138
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,10 +1722,10 @@ TextureImporter:
       name: FlapAround-Anim_76
       rect:
         serializedVersion: 2
-        x: 96
-        y: 120
-        width: 24
-        height: 40
+        x: 99
+        y: 140
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,10 +1743,10 @@ TextureImporter:
       name: FlapAround-Anim_77
       rect:
         serializedVersion: 2
-        x: 120
-        y: 120
-        width: 24
-        height: 40
+        x: 123
+        y: 139
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1764,10 +1764,10 @@ TextureImporter:
       name: FlapAround-Anim_78
       rect:
         serializedVersion: 2
-        x: 144
-        y: 120
-        width: 24
-        height: 40
+        x: 146
+        y: 138
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,10 +1785,10 @@ TextureImporter:
       name: FlapAround-Anim_79
       rect:
         serializedVersion: 2
-        x: 168
-        y: 120
-        width: 24
-        height: 40
+        x: 171
+        y: 138
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,10 +1806,10 @@ TextureImporter:
       name: FlapAround-Anim_80
       rect:
         serializedVersion: 2
-        x: 192
-        y: 120
-        width: 24
-        height: 40
+        x: 195
+        y: 139
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1827,10 +1827,10 @@ TextureImporter:
       name: FlapAround-Anim_81
       rect:
         serializedVersion: 2
-        x: 216
-        y: 120
-        width: 24
-        height: 40
+        x: 217
+        y: 139
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1848,10 +1848,10 @@ TextureImporter:
       name: FlapAround-Anim_82
       rect:
         serializedVersion: 2
-        x: 240
-        y: 120
-        width: 24
-        height: 40
+        x: 245
+        y: 138
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,10 +1869,10 @@ TextureImporter:
       name: FlapAround-Anim_83
       rect:
         serializedVersion: 2
-        x: 264
-        y: 120
-        width: 24
-        height: 40
+        x: 265
+        y: 138
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1890,10 +1890,10 @@ TextureImporter:
       name: FlapAround-Anim_84
       rect:
         serializedVersion: 2
-        x: 288
-        y: 120
-        width: 24
-        height: 40
+        x: 291
+        y: 140
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1911,10 +1911,10 @@ TextureImporter:
       name: FlapAround-Anim_85
       rect:
         serializedVersion: 2
-        x: 312
-        y: 120
-        width: 24
-        height: 40
+        x: 316
+        y: 139
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1932,10 +1932,10 @@ TextureImporter:
       name: FlapAround-Anim_86
       rect:
         serializedVersion: 2
-        x: 336
-        y: 120
-        width: 24
-        height: 40
+        x: 341
+        y: 139
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1953,10 +1953,10 @@ TextureImporter:
       name: FlapAround-Anim_87
       rect:
         serializedVersion: 2
-        x: 360
-        y: 120
-        width: 24
-        height: 40
+        x: 363
+        y: 138
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1974,10 +1974,10 @@ TextureImporter:
       name: FlapAround-Anim_88
       rect:
         serializedVersion: 2
-        x: 384
-        y: 120
-        width: 24
-        height: 40
+        x: 387
+        y: 140
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1996,9 +1996,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 408
-        y: 120
-        width: 24
-        height: 40
+        y: 138
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2016,10 +2016,10 @@ TextureImporter:
       name: FlapAround-Anim_90
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
-        width: 24
-        height: 40
+        x: 3
+        y: 99
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2037,10 +2037,10 @@ TextureImporter:
       name: FlapAround-Anim_91
       rect:
         serializedVersion: 2
-        x: 24
-        y: 80
-        width: 24
-        height: 40
+        x: 28
+        y: 98
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2058,10 +2058,10 @@ TextureImporter:
       name: FlapAround-Anim_92
       rect:
         serializedVersion: 2
-        x: 48
-        y: 80
-        width: 24
-        height: 40
+        x: 51
+        y: 100
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2079,10 +2079,10 @@ TextureImporter:
       name: FlapAround-Anim_93
       rect:
         serializedVersion: 2
-        x: 72
-        y: 80
-        width: 24
-        height: 40
+        x: 75
+        y: 99
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2100,10 +2100,10 @@ TextureImporter:
       name: FlapAround-Anim_94
       rect:
         serializedVersion: 2
-        x: 96
-        y: 80
-        width: 24
-        height: 40
+        x: 98
+        y: 98
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2121,10 +2121,10 @@ TextureImporter:
       name: FlapAround-Anim_95
       rect:
         serializedVersion: 2
-        x: 120
-        y: 80
-        width: 24
-        height: 40
+        x: 123
+        y: 98
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2142,10 +2142,10 @@ TextureImporter:
       name: FlapAround-Anim_96
       rect:
         serializedVersion: 2
-        x: 144
-        y: 80
-        width: 24
-        height: 40
+        x: 147
+        y: 99
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2163,10 +2163,10 @@ TextureImporter:
       name: FlapAround-Anim_97
       rect:
         serializedVersion: 2
-        x: 168
-        y: 80
-        width: 24
-        height: 40
+        x: 169
+        y: 99
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2184,10 +2184,10 @@ TextureImporter:
       name: FlapAround-Anim_98
       rect:
         serializedVersion: 2
-        x: 192
-        y: 80
-        width: 24
-        height: 40
+        x: 197
+        y: 98
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2205,10 +2205,10 @@ TextureImporter:
       name: FlapAround-Anim_99
       rect:
         serializedVersion: 2
-        x: 216
-        y: 80
-        width: 24
-        height: 40
+        x: 217
+        y: 98
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2226,10 +2226,10 @@ TextureImporter:
       name: FlapAround-Anim_100
       rect:
         serializedVersion: 2
-        x: 240
-        y: 80
-        width: 24
-        height: 40
+        x: 243
+        y: 100
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2247,10 +2247,10 @@ TextureImporter:
       name: FlapAround-Anim_101
       rect:
         serializedVersion: 2
-        x: 264
-        y: 80
-        width: 24
-        height: 40
+        x: 268
+        y: 99
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2268,10 +2268,10 @@ TextureImporter:
       name: FlapAround-Anim_102
       rect:
         serializedVersion: 2
-        x: 288
-        y: 80
-        width: 24
-        height: 40
+        x: 293
+        y: 99
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,10 +2289,10 @@ TextureImporter:
       name: FlapAround-Anim_103
       rect:
         serializedVersion: 2
-        x: 312
-        y: 80
-        width: 24
-        height: 40
+        x: 315
+        y: 98
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2310,10 +2310,10 @@ TextureImporter:
       name: FlapAround-Anim_104
       rect:
         serializedVersion: 2
-        x: 336
-        y: 80
-        width: 24
-        height: 40
+        x: 339
+        y: 100
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2332,9 +2332,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 80
-        width: 24
-        height: 40
+        y: 98
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2352,10 +2352,10 @@ TextureImporter:
       name: FlapAround-Anim_106
       rect:
         serializedVersion: 2
-        x: 384
-        y: 80
-        width: 24
-        height: 40
+        x: 387
+        y: 99
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2373,10 +2373,10 @@ TextureImporter:
       name: FlapAround-Anim_107
       rect:
         serializedVersion: 2
-        x: 408
-        y: 80
-        width: 24
-        height: 40
+        x: 412
+        y: 98
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2394,10 +2394,10 @@ TextureImporter:
       name: FlapAround-Anim_108
       rect:
         serializedVersion: 2
-        x: 0
-        y: 40
-        width: 24
-        height: 40
+        x: 3
+        y: 60
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2415,10 +2415,10 @@ TextureImporter:
       name: FlapAround-Anim_109
       rect:
         serializedVersion: 2
-        x: 24
-        y: 40
-        width: 24
-        height: 40
+        x: 27
+        y: 59
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2436,10 +2436,10 @@ TextureImporter:
       name: FlapAround-Anim_110
       rect:
         serializedVersion: 2
-        x: 48
-        y: 40
-        width: 24
-        height: 40
+        x: 50
+        y: 58
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2457,10 +2457,10 @@ TextureImporter:
       name: FlapAround-Anim_111
       rect:
         serializedVersion: 2
-        x: 72
-        y: 40
-        width: 24
-        height: 40
+        x: 75
+        y: 58
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2478,10 +2478,10 @@ TextureImporter:
       name: FlapAround-Anim_112
       rect:
         serializedVersion: 2
-        x: 96
-        y: 40
-        width: 24
-        height: 40
+        x: 99
+        y: 59
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2499,10 +2499,10 @@ TextureImporter:
       name: FlapAround-Anim_113
       rect:
         serializedVersion: 2
-        x: 120
-        y: 40
-        width: 24
-        height: 40
+        x: 121
+        y: 59
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2520,10 +2520,10 @@ TextureImporter:
       name: FlapAround-Anim_114
       rect:
         serializedVersion: 2
-        x: 144
-        y: 40
-        width: 24
-        height: 40
+        x: 149
+        y: 58
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2541,10 +2541,10 @@ TextureImporter:
       name: FlapAround-Anim_115
       rect:
         serializedVersion: 2
-        x: 168
-        y: 40
-        width: 24
-        height: 40
+        x: 169
+        y: 58
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2562,10 +2562,10 @@ TextureImporter:
       name: FlapAround-Anim_116
       rect:
         serializedVersion: 2
-        x: 192
-        y: 40
-        width: 24
-        height: 40
+        x: 195
+        y: 60
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2583,10 +2583,10 @@ TextureImporter:
       name: FlapAround-Anim_117
       rect:
         serializedVersion: 2
-        x: 216
-        y: 40
-        width: 24
-        height: 40
+        x: 220
+        y: 59
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2604,10 +2604,10 @@ TextureImporter:
       name: FlapAround-Anim_118
       rect:
         serializedVersion: 2
-        x: 240
-        y: 40
-        width: 24
-        height: 40
+        x: 245
+        y: 59
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2625,10 +2625,10 @@ TextureImporter:
       name: FlapAround-Anim_119
       rect:
         serializedVersion: 2
-        x: 264
-        y: 40
-        width: 24
-        height: 40
+        x: 267
+        y: 58
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2646,10 +2646,10 @@ TextureImporter:
       name: FlapAround-Anim_120
       rect:
         serializedVersion: 2
-        x: 288
-        y: 40
-        width: 24
-        height: 40
+        x: 291
+        y: 60
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2668,9 +2668,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 312
-        y: 40
-        width: 24
-        height: 40
+        y: 58
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2688,10 +2688,10 @@ TextureImporter:
       name: FlapAround-Anim_122
       rect:
         serializedVersion: 2
-        x: 336
-        y: 40
-        width: 24
-        height: 40
+        x: 339
+        y: 59
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2709,10 +2709,10 @@ TextureImporter:
       name: FlapAround-Anim_123
       rect:
         serializedVersion: 2
-        x: 360
-        y: 40
-        width: 24
-        height: 40
+        x: 364
+        y: 58
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2730,10 +2730,10 @@ TextureImporter:
       name: FlapAround-Anim_124
       rect:
         serializedVersion: 2
-        x: 384
-        y: 40
-        width: 24
-        height: 40
+        x: 387
+        y: 60
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2751,10 +2751,10 @@ TextureImporter:
       name: FlapAround-Anim_125
       rect:
         serializedVersion: 2
-        x: 408
-        y: 40
-        width: 24
-        height: 40
+        x: 411
+        y: 59
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2772,10 +2772,10 @@ TextureImporter:
       name: FlapAround-Anim_126
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 40
+        x: 2
+        y: 18
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2793,10 +2793,10 @@ TextureImporter:
       name: FlapAround-Anim_127
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 40
+        x: 27
+        y: 18
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2814,10 +2814,10 @@ TextureImporter:
       name: FlapAround-Anim_128
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 40
+        x: 51
+        y: 19
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2835,10 +2835,10 @@ TextureImporter:
       name: FlapAround-Anim_129
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 40
+        x: 73
+        y: 19
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2856,10 +2856,10 @@ TextureImporter:
       name: FlapAround-Anim_130
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 40
+        x: 101
+        y: 18
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2877,10 +2877,10 @@ TextureImporter:
       name: FlapAround-Anim_131
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24
-        height: 40
+        x: 121
+        y: 18
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2898,10 +2898,10 @@ TextureImporter:
       name: FlapAround-Anim_132
       rect:
         serializedVersion: 2
-        x: 144
-        y: 0
-        width: 24
-        height: 40
+        x: 147
+        y: 20
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2919,10 +2919,10 @@ TextureImporter:
       name: FlapAround-Anim_133
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 24
-        height: 40
+        x: 172
+        y: 19
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2940,10 +2940,10 @@ TextureImporter:
       name: FlapAround-Anim_134
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 24
-        height: 40
+        x: 197
+        y: 19
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2961,10 +2961,10 @@ TextureImporter:
       name: FlapAround-Anim_135
       rect:
         serializedVersion: 2
-        x: 216
-        y: 0
-        width: 24
-        height: 40
+        x: 219
+        y: 18
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2982,10 +2982,10 @@ TextureImporter:
       name: FlapAround-Anim_136
       rect:
         serializedVersion: 2
-        x: 240
-        y: 0
-        width: 24
-        height: 40
+        x: 243
+        y: 20
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3004,9 +3004,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 0
-        width: 24
-        height: 40
+        y: 18
+        width: 23
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3024,10 +3024,10 @@ TextureImporter:
       name: FlapAround-Anim_138
       rect:
         serializedVersion: 2
-        x: 288
-        y: 0
-        width: 24
-        height: 40
+        x: 291
+        y: 19
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3045,10 +3045,10 @@ TextureImporter:
       name: FlapAround-Anim_139
       rect:
         serializedVersion: 2
-        x: 312
-        y: 0
-        width: 24
-        height: 40
+        x: 316
+        y: 18
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3066,10 +3066,10 @@ TextureImporter:
       name: FlapAround-Anim_140
       rect:
         serializedVersion: 2
-        x: 336
-        y: 0
-        width: 24
-        height: 40
+        x: 339
+        y: 20
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3087,10 +3087,10 @@ TextureImporter:
       name: FlapAround-Anim_141
       rect:
         serializedVersion: 2
-        x: 360
-        y: 0
-        width: 24
-        height: 40
+        x: 363
+        y: 19
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3108,10 +3108,10 @@ TextureImporter:
       name: FlapAround-Anim_142
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 24
-        height: 40
+        x: 386
+        y: 18
+        width: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3129,10 +3129,10 @@ TextureImporter:
       name: FlapAround-Anim_143
       rect:
         serializedVersion: 2
-        x: 408
-        y: 0
-        width: 24
-        height: 40
+        x: 411
+        y: 18
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
