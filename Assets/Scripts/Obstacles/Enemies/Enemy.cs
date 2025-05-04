@@ -15,15 +15,15 @@ public class Enemy : MonoBehaviour
     [Header("Collisions")]
     [SerializeField] private Transform groundChecker;
     [SerializeField] private float groundDistance;
-    [SerializeField] private Transform wallChecker;
-    [SerializeField] private float wallDistance;
+    [SerializeField] protected Transform wallChecker;
+    [SerializeField] protected float wallDistance;
 
     [SerializeField] private LayerMask groundMask;
 
     public EnemyStateMachine stateMachine {  get; private set; }
 
     protected bool isForward = true;
-    public float currentDirection = 1f;
+    [HideInInspector] public float currentDirection = 1f;
 
     protected virtual void Awake()
     {
