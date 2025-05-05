@@ -1,0 +1,3308 @@
+fileFormatVersion: 2
+guid: c9644c874d6557a4d9145d728c8315bb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FlapAround-Anim_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 299
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafc79e274801204b943c28ebc697ba1
+      internalID: 75088825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 299
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf012751a99344a8056df4972c9bac
+      internalID: -526328597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 298
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2130519431051c44a334c7f3da03bb7
+      internalID: -71228017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4839f393ee5b8cd4fb087e390993edae
+      internalID: -632749223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 300
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d72e2dd1577d0469e77968db064594
+      internalID: -560336869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 299
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7408450f6a5d044bcc8a1cec5ac266
+      internalID: 258999659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 299
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597f16b70358517438f3533dde9f73dc
+      internalID: -911809733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 298
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f04f815623c7140882690e8f10fafa
+      internalID: -647244652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 300
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef99218d4d42e74da0ea338c6adc417
+      internalID: -1044689970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 298
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c44f10e2b6ebc478585792fbf1cd04
+      internalID: -2145622788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 299
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c59b3334f062c14293bf15ab3b30716
+      internalID: -381622630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 298
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1d71eb9d27aac4f96a708dc64c51b6
+      internalID: 274195721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 300
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f7e6a73cddbca4aa8e59efa98825d0
+      internalID: 1949997951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 299
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da300d8504860a04d911820643a14c10
+      internalID: -1390043012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 298
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b681cf8565d2e3c4ba2370da057e1bba
+      internalID: 419570598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8d87a003b969546b76c367219bcca7
+      internalID: 1846772526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 299
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d314693bf07b55d458b61832fc34a69a
+      internalID: -2010177776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 299
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370e9cde11c946f4ba7a7e5067c432a1
+      internalID: -2088061417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 258
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d52a41ef395c1349a5c57252fae5ab9
+      internalID: 1824913005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_19
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f40b9c73441bc843a45996268b20474
+      internalID: -1588987934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e886cc973019c448975b2946b5c9bf9
+      internalID: 1448817893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 259
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8d0abd9fe3b694a8c889aaf78c62c5
+      internalID: -1043075797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 259
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0890a19735be94f9f70636ac6108cb
+      internalID: 1283182960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_23
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 258
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1489001fe38dd154d9814613d81cb4ce
+      internalID: 1711118159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 260
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56775906aa8a0e94ba9122a9661cb181
+      internalID: -118741454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_25
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 258
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2989f76d71a66e541a2c075ac09c258c
+      internalID: -2009720812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_26
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 259
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a789d15aa0751b49b2c628fafad2ecc
+      internalID: -1785961047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 258
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60046f14151724c409dca0a157234b24
+      internalID: -8225198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_28
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 260
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729fe74a724b4644495b55faecd4e872
+      internalID: -1019874026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_29
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 259
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b1a8fd76495b549bd6349ee10b540b
+      internalID: -1180455151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_30
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 258
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76a30e329061734588f43c8d5c49d93
+      internalID: 1920938015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc9cde38c4d7ae429278de63239b6f8
+      internalID: -1492001959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_32
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 259
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac46197af09f05142a1a51a58a284081
+      internalID: 1044688487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_33
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 259
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4918701e30c4f645995e80c410629c7
+      internalID: -669920751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_34
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 258
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37677025e1f387c49bf4e30fce4ee2f8
+      internalID: 1703640304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c149de4340bf134291b1f1451f85417
+      internalID: -657565321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 220
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a052c59382ab78f47b5246aaa65c82cc
+      internalID: -207660549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 219
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c71ae9698b85a4cafc88a83405b93c
+      internalID: 32492176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_38
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 219
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2383e9104570b994394dda17abb98633
+      internalID: -220085269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_39
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 218
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b5520bbbc03b44c953f67bb5a2c1d9
+      internalID: 342328740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_40
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 220
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13ea29dd070e9e409b30b67d916f7d9
+      internalID: 313321839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 218
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c62cad59fbb504f860e949035dbbef
+      internalID: -1122830504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_42
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 219
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c51a785369ec0844bd815151a58c733
+      internalID: 1523247835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_43
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 218
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f4635464ca1744fbfc127f401da207
+      internalID: -421615050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_44
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 220
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4750688eadd5f7b4692fab844da72e9e
+      internalID: 1254330660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 219
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ec4a86493faba47a284728352a57bd
+      internalID: -361892693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_46
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 218
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c76d2c30d858c846bb4226eccbbb1d8
+      internalID: -1750664478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_47
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5b23a723a518147927956befc122e2
+      internalID: -633272764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_48
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 219
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500d3dd352c82784abe19648a9ee4574
+      internalID: -65150004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_49
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 219
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea535c3f30e54142bb051dbbe98475a
+      internalID: 898497783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_50
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 218
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879d69dc8b7229b499a36204f7eed3ca
+      internalID: 1923632794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_51
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0bc13040dca8440be782f9d4b939bf
+      internalID: 544392147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_52
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 220
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb87bb5d00458644db2ef37f158a1a53
+      internalID: 204483827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_53
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 219
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3a7268291b9714fac9aada7c1b1955
+      internalID: -522503142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_54
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 179
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32e0c56e0d10a4a9edf8c32e17c6d9
+      internalID: -285490742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_55
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 178
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6faff3a0c03fa49828435c7caaa6c1
+      internalID: -651797328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_56
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 180
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a04ea53e8124a6418b394942c1a993c
+      internalID: 1741209537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 178
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd51ab0329d7a4ea1ce7d6d4c662dc
+      internalID: -1115392411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_58
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 179
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f8ca9940e9c843a8be4f8b4c1bded
+      internalID: 194902514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_59
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 178
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720ccf9169a531c48851eaafc017ed3b
+      internalID: 1902270593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_60
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 180
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c296fa2d8fc0247b50419798254cca
+      internalID: 1604632147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_61
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 179
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb83678536308e0498fcb3044093c8b8
+      internalID: 2090475941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_62
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 178
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e44f6c05e36f6b41800734634d4c7bd
+      internalID: -660677835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_63
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dbd578597b8f647bdf613fd505ece3
+      internalID: 515380560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_64
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 179
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e42c8bc4534a014591bc901ab27a88e
+      internalID: -49013970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_65
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 179
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fd63e25239fcf4abbcda3057855ddb
+      internalID: 836323088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_66
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 178
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367122cade09f9746a5b9d3bfe429094
+      internalID: -1789670373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_67
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3a6930ec824e046af5d1ec92ccb9a0
+      internalID: 873696877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_68
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 180
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f74df0d2c8374d87e38ab6e833c47
+      internalID: -1636806880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_69
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 179
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe966b1c2982c8e4aa5afd90f7d94f74
+      internalID: 1849739412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_70
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 179
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6a88555798b5040b5ffdc0f9156d55
+      internalID: -12217219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_71
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 178
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700a9da502952864fafa9773f592a726
+      internalID: 1148985103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 140
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc001c08fd7b8e0458b3e9bd2cf35cc3
+      internalID: -744027629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 138
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d9fab9966c11a49993fef9862c68ad
+      internalID: 283376158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_74
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 139
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e2f5c7ce080434ba986046c016e46e
+      internalID: -305124531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_75
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 138
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a61b44eaba23243af7328ed2118733
+      internalID: 2061601814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_76
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 140
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df440a221ccf61b4e81efb03d8468dc0
+      internalID: 1646178611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_77
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 139
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675b0812637e1484c89052b686d4f390
+      internalID: -691766212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_78
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 138
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233fee4c70a38ec49a27b181c35b0415
+      internalID: -1416077508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_79
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7ed1b1f09a21042bafe14d07b91d37
+      internalID: 201208548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 139
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7ca304c638acb46803e4a0ac74f61e
+      internalID: 1029283119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_81
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 139
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e0bb4f66e12f645b6c1e7094b620e4
+      internalID: 1961506594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_82
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 138
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab23fdaa8f4fe6c489115f509afdbf8f
+      internalID: 180373627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_83
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1404cdd19b4b972488efa8983d2b71b1
+      internalID: 1722561199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_84
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 140
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a09e7389955dcb49b0876a800c4fd84
+      internalID: 420000737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_85
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 139
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b309fed3c837d4381b30ca973e4a8d
+      internalID: -1672204678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_86
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 139
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7781e6b14e05bcd49b4a465c077213fc
+      internalID: 953094562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_87
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 138
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc8c19799d33049aca71ace3dc3148
+      internalID: 1776656035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_88
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 140
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a576183a55aa1a498cf2ea04fbedffa
+      internalID: -2032269558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_89
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 138
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4760f1792af07e043aeb55dd2a77ab78
+      internalID: -1596897685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_90
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60def5608245fd64e99820527d407323
+      internalID: 1890022695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_91
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 98
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839b4da1cf9fdb94ebedf92b15926caa
+      internalID: 1954254387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_92
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 100
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4509ca27028775449f6b4cd4953055b
+      internalID: -103646053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_93
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 99
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a641b9ebb4d53047910b3f05c44380a
+      internalID: 97561111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_94
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a81969a8841c240bdeeb3904fe52fd
+      internalID: 390247751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_95
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85c74f0063928a47a101ba619b78e8c
+      internalID: 13146747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_96
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 99
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de35bfdbf645b4da15d1e06f77965e
+      internalID: 1780785160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_97
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 99
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521864667fb04ac4f8292171a7274a7e
+      internalID: -753208537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_98
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 98
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d4c5dc611ccd6479afb479631915ce
+      internalID: -1569229607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_99
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a0ea577041a2649a1096d2476ce80f
+      internalID: 2011802481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_100
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 100
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef89439193e5b46a668dd4f409b77e
+      internalID: -1391567892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_101
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 99
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0046c2e7287a6f4884540ebb9c6efcc
+      internalID: 1518370679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_102
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 99
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6495c6e4474e7148958486a38c1f7b9
+      internalID: -599805315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_103
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 98
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5b3dbb4cf251b43805c2b4095ee93f
+      internalID: -378482875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_104
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 100
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878ca026103b7e643bf5b9dfb308198c
+      internalID: 399516357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_105
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 98
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ac34c65bd036f4196f22771b3468e7
+      internalID: -2105769588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_106
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 99
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe60dea99d3571143aa1dc4394533389
+      internalID: 837583764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_107
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 98
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fac4094d5dd3a43ada3d90ba0f0143
+      internalID: -268478024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_108
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 60
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2488b1f8bca1f184182dd89c2935b73f
+      internalID: -919576770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_109
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 59
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685eab7224167264395908c5dbf43158
+      internalID: 1651862398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_110
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 58
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc470216b6e0cef4a8ffcab17de5c809
+      internalID: -1594160239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_111
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61994a686868b124aa8ec2b4e47c971d
+      internalID: -1278718812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_112
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 59
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a96f7d1aa6c8241904e74d9ea2f62f
+      internalID: 1057121903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_113
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 59
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f3c16e04abc1b449cf121817560d56
+      internalID: 847485903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_114
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 58
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2566aaf85e3ca9542b5aaff26c4dc11e
+      internalID: -1999632197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_115
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de66ca894e009548a972a8f51cd16fc
+      internalID: -481052061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_116
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 60
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c48a1543303a644aa79215e04827b5
+      internalID: 1704256599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_117
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 59
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b827062d4c8b674a9e6abb82548efd1
+      internalID: -1165696395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_118
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 59
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb24a1a63cd83549bed29a12b984402
+      internalID: -218367278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_119
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 58
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6108a2086d6de754ca6d335f983551ec
+      internalID: 268991293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_120
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 60
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccbf97b1ee5f4947a084093596f37bc
+      internalID: -796542066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_121
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 58
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa969b840273e74d8a938f200287eb2
+      internalID: 1603151725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_122
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 59
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b93497cbaf87844bffea3d7285ce44
+      internalID: -74195828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_123
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 58
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d9bb295c9f7d84dba2273f1b4b0f58
+      internalID: 480322796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_124
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 60
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e642156868a4995468df78c4e36a559d
+      internalID: 818017376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_125
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 59
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1916a6309898b1748bc5068da5a3d9f3
+      internalID: -1088843114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_126
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c16c7e410dea8a45a4de1ce95e99550
+      internalID: 361525304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_127
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ea69c6119431f40ad36d9969970eb8
+      internalID: -807454375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_128
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 19
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d09b26a6b0274d906bf9be8758614
+      internalID: -821042078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_129
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 19
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3718c2d9fb525642ac859070d18c9a6
+      internalID: 389850983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_130
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 18
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c2cb0d713207a40b4b95efa7c59a73
+      internalID: -1168922779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_131
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d0fe359f713ad40bd0e0d1ca1283af
+      internalID: 1741509295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_132
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 20
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9c888fcf517204cb02c9db2d9b46f4
+      internalID: 233942149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_133
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 19
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d77d1a64a33fa42ad9d1ccc59bb0d2
+      internalID: 1648979000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_134
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 19
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d50232931bd4545b323f58ee3f5f17
+      internalID: -132426972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_135
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 18
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08955ec1f78b7cf4e8dd0f64634dfbfb
+      internalID: 1334439791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_136
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 20
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326f3e1166c1900478433c8e8e733d60
+      internalID: 1185414474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_137
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 18
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef717816801120419e1b8a8593baa44
+      internalID: 269241004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_138
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 19
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b3cffddabb8f64a82d9b4a5e1de376
+      internalID: -1091161408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_139
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 18
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bac276862369f43815c154cc4b1695
+      internalID: 1963169912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_140
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 20
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b7ec386221bc14fa0f90de8ad16342
+      internalID: 1610260559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_141
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 19
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574860d571b58484d8fabc78c8eeceb8
+      internalID: 1621408075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_142
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 18
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0617c460caf0945408b4eab00fd4a45e
+      internalID: -2044005540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlapAround-Anim_143
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6221e71096d62d49a656b976f246258
+      internalID: 1114908109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FlapAround-Anim_0: 75088825
+      FlapAround-Anim_1: -526328597
+      FlapAround-Anim_10: -381622630
+      FlapAround-Anim_100: -1391567892
+      FlapAround-Anim_101: 1518370679
+      FlapAround-Anim_102: -599805315
+      FlapAround-Anim_103: -378482875
+      FlapAround-Anim_104: 399516357
+      FlapAround-Anim_105: -2105769588
+      FlapAround-Anim_106: 837583764
+      FlapAround-Anim_107: -268478024
+      FlapAround-Anim_108: -919576770
+      FlapAround-Anim_109: 1651862398
+      FlapAround-Anim_11: 274195721
+      FlapAround-Anim_110: -1594160239
+      FlapAround-Anim_111: -1278718812
+      FlapAround-Anim_112: 1057121903
+      FlapAround-Anim_113: 847485903
+      FlapAround-Anim_114: -1999632197
+      FlapAround-Anim_115: -481052061
+      FlapAround-Anim_116: 1704256599
+      FlapAround-Anim_117: -1165696395
+      FlapAround-Anim_118: -218367278
+      FlapAround-Anim_119: 268991293
+      FlapAround-Anim_12: 1949997951
+      FlapAround-Anim_120: -796542066
+      FlapAround-Anim_121: 1603151725
+      FlapAround-Anim_122: -74195828
+      FlapAround-Anim_123: 480322796
+      FlapAround-Anim_124: 818017376
+      FlapAround-Anim_125: -1088843114
+      FlapAround-Anim_126: 361525304
+      FlapAround-Anim_127: -807454375
+      FlapAround-Anim_128: -821042078
+      FlapAround-Anim_129: 389850983
+      FlapAround-Anim_13: -1390043012
+      FlapAround-Anim_130: -1168922779
+      FlapAround-Anim_131: 1741509295
+      FlapAround-Anim_132: 233942149
+      FlapAround-Anim_133: 1648979000
+      FlapAround-Anim_134: -132426972
+      FlapAround-Anim_135: 1334439791
+      FlapAround-Anim_136: 1185414474
+      FlapAround-Anim_137: 269241004
+      FlapAround-Anim_138: -1091161408
+      FlapAround-Anim_139: 1963169912
+      FlapAround-Anim_14: 419570598
+      FlapAround-Anim_140: 1610260559
+      FlapAround-Anim_141: 1621408075
+      FlapAround-Anim_142: -2044005540
+      FlapAround-Anim_143: 1114908109
+      FlapAround-Anim_15: 1846772526
+      FlapAround-Anim_16: -2010177776
+      FlapAround-Anim_17: -2088061417
+      FlapAround-Anim_18: 1824913005
+      FlapAround-Anim_19: -1588987934
+      FlapAround-Anim_2: -71228017
+      FlapAround-Anim_20: 1448817893
+      FlapAround-Anim_21: -1043075797
+      FlapAround-Anim_22: 1283182960
+      FlapAround-Anim_23: 1711118159
+      FlapAround-Anim_24: -118741454
+      FlapAround-Anim_25: -2009720812
+      FlapAround-Anim_26: -1785961047
+      FlapAround-Anim_27: -8225198
+      FlapAround-Anim_28: -1019874026
+      FlapAround-Anim_29: -1180455151
+      FlapAround-Anim_3: -632749223
+      FlapAround-Anim_30: 1920938015
+      FlapAround-Anim_31: -1492001959
+      FlapAround-Anim_32: 1044688487
+      FlapAround-Anim_33: -669920751
+      FlapAround-Anim_34: 1703640304
+      FlapAround-Anim_35: -657565321
+      FlapAround-Anim_36: -207660549
+      FlapAround-Anim_37: 32492176
+      FlapAround-Anim_38: -220085269
+      FlapAround-Anim_39: 342328740
+      FlapAround-Anim_4: -560336869
+      FlapAround-Anim_40: 313321839
+      FlapAround-Anim_41: -1122830504
+      FlapAround-Anim_42: 1523247835
+      FlapAround-Anim_43: -421615050
+      FlapAround-Anim_44: 1254330660
+      FlapAround-Anim_45: -361892693
+      FlapAround-Anim_46: -1750664478
+      FlapAround-Anim_47: -633272764
+      FlapAround-Anim_48: -65150004
+      FlapAround-Anim_49: 898497783
+      FlapAround-Anim_5: 258999659
+      FlapAround-Anim_50: 1923632794
+      FlapAround-Anim_51: 544392147
+      FlapAround-Anim_52: 204483827
+      FlapAround-Anim_53: -522503142
+      FlapAround-Anim_54: -285490742
+      FlapAround-Anim_55: -651797328
+      FlapAround-Anim_56: 1741209537
+      FlapAround-Anim_57: -1115392411
+      FlapAround-Anim_58: 194902514
+      FlapAround-Anim_59: 1902270593
+      FlapAround-Anim_6: -911809733
+      FlapAround-Anim_60: 1604632147
+      FlapAround-Anim_61: 2090475941
+      FlapAround-Anim_62: -660677835
+      FlapAround-Anim_63: 515380560
+      FlapAround-Anim_64: -49013970
+      FlapAround-Anim_65: 836323088
+      FlapAround-Anim_66: -1789670373
+      FlapAround-Anim_67: 873696877
+      FlapAround-Anim_68: -1636806880
+      FlapAround-Anim_69: 1849739412
+      FlapAround-Anim_7: -647244652
+      FlapAround-Anim_70: -12217219
+      FlapAround-Anim_71: 1148985103
+      FlapAround-Anim_72: -744027629
+      FlapAround-Anim_73: 283376158
+      FlapAround-Anim_74: -305124531
+      FlapAround-Anim_75: 2061601814
+      FlapAround-Anim_76: 1646178611
+      FlapAround-Anim_77: -691766212
+      FlapAround-Anim_78: -1416077508
+      FlapAround-Anim_79: 201208548
+      FlapAround-Anim_8: -1044689970
+      FlapAround-Anim_80: 1029283119
+      FlapAround-Anim_81: 1961506594
+      FlapAround-Anim_82: 180373627
+      FlapAround-Anim_83: 1722561199
+      FlapAround-Anim_84: 420000737
+      FlapAround-Anim_85: -1672204678
+      FlapAround-Anim_86: 953094562
+      FlapAround-Anim_87: 1776656035
+      FlapAround-Anim_88: -2032269558
+      FlapAround-Anim_89: -1596897685
+      FlapAround-Anim_9: -2145622788
+      FlapAround-Anim_90: 1890022695
+      FlapAround-Anim_91: 1954254387
+      FlapAround-Anim_92: -103646053
+      FlapAround-Anim_93: 97561111
+      FlapAround-Anim_94: 390247751
+      FlapAround-Anim_95: 13146747
+      FlapAround-Anim_96: 1780785160
+      FlapAround-Anim_97: -753208537
+      FlapAround-Anim_98: -1569229607
+      FlapAround-Anim_99: 2011802481
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
