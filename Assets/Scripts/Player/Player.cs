@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     public float speed = 10f;
     public float jumpSpeed = 5f;
 
+    public Vector2 knockBackDirection;
+
     public float Health {  get; private set; }
     public float Experience {  get; private set; }
     public int Score {  get; private set; }
@@ -79,19 +81,27 @@ public class Player : MonoBehaviour
     {
         Health = 0;
         onStatsChange.Invoke();
-        rigidBody.velocity = Vector3.zero;
+        AudioManager.instance.PlaySoundEffect(8);
+        Destroy(gameObject);
     }
 
     public void ReceiveDamage(int damage)
     {
+        AudioManager.instance.PlaySoundEffect(9);
         if (Health - damage <= 0)
         {
             PlayerDeath();
         } else
         {
             Health -= damage;
+            GetKnockback();
             onStatsChange.Invoke();
         }
+    }
+
+    private void GetKnockback()
+    {
+        rigidBody.velocity = knockBackDirection;
     }
 
     public void SetMovement(float horizontalVelocity, float verticalVelocity)

@@ -10,6 +10,7 @@ public class SceneTransition : MonoBehaviour
     private void Start()
     {
         DissolveImage();
+        AudioManager.instance.PlayBackgroundMusic(2);
     }
 
     private void ChangeInteraction(bool canInteract)
@@ -24,7 +25,6 @@ public class SceneTransition : MonoBehaviour
         LeanTween.alphaCanvas(transitionImage, 0f, enterDuration).setOnComplete(() =>
         {
             ChangeInteraction(false);
-            Debug.Log("llamando");
         });
     }
 

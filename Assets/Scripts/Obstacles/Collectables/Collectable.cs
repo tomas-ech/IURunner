@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Collectable : MonoBehaviour
@@ -12,11 +10,10 @@ public class Collectable : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Triggered");
-        
+    {        
         if (collision.TryGetComponent<Player>(out var player))
         {
+            AudioManager.instance.PlaySoundEffect(1);
             player.UpdateScore(score);
             Destroy(gameObject);
         }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PidgeyMoveState : EnemyState
@@ -16,6 +14,7 @@ public class PidgeyMoveState : EnemyState
     {
         base.Enter();
         stateTimer = enemyPidgey.moveTime;
+        enemyPidgey.canDoDamage = true;
     }
     public override void Update()
     {
@@ -52,5 +51,6 @@ public class PidgeyMoveState : EnemyState
     public override void Exit()
     {
         base.Exit();
+        enemyPidgey.canDoDamage = false;
     }
 }

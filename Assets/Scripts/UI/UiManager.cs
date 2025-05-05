@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,11 +20,14 @@ public class UiManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI endGameText;
     #endregion
 
+    private bool gameIsMuted = false;
+
     private void Start()
     {
         InitializePlayerUi();
 
         player.onStatsChange += UpdatePlayerUi;
+        AudioManager.instance.PlayBackgroundMusic(1);
     }
 
     private void InitializePlayerUi()
@@ -42,15 +43,20 @@ public class UiManager : MonoBehaviour
         SmoothUpdate(lifeBar, lifeText, player.Health);
         score.text = player.Score.ToString();
 
-        if (player.Health <= 0)
+        if (player.Health <= 0 || player.Score >= 100)
         {
-            endGameText.text = "Game Over";
-            endGameText.color = Color.red;
-
-            LeanTween.alphaCanvas(endGameView, 1, 1.5f);
-            endGameView.interactable = true;
-            endGameView.blocksRaycasts = true;
+            ActiveGameOverScreen(player.Score >= 100 ? "Victory" : "Game Over", player.Score >= 100 ? Color.blue : Color.red);
         }
+    }
+
+    private void ActiveGameOverScreen(string title, Color titleColor)
+    {
+        endGameText.text = title;
+        endGameText.color = titleColor;
+
+        LeanTween.alphaCanvas(endGameView, 1, 1.5f);
+        endGameView.interactable = true;
+        endGameView.blocksRaycasts = true;
     }
 
     private void SmoothUpdate(Image imageToUpdate, TextMeshProUGUI textToUpdate, float amount)
@@ -58,7 +64,8 @@ public class UiManager : MonoBehaviour
         textToUpdate.text = (amount).ToString() + "%";
 
         LeanTween.value(gameObject, imageToUpdate.fillAmount, amount / 100, 1f)
-            .setOnUpdate((float value) => {
+            .setOnUpdate((float value) =>
+            {
                 if (imageToUpdate != null)
                 {
                     imageToUpdate.fillAmount = value;
@@ -66,6 +73,20 @@ public class UiManager : MonoBehaviour
             })
             .setEase(LeanTweenType.easeInOutCubic);
 
+    }
+
+    public void MuteButton()
+    {
+        gameIsMuted = !gameIsMuted;
+
+        if (gameIsMuted)
+        {
+            AudioListener.volume = 0;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }
     }
 
     private void OnDestroy()

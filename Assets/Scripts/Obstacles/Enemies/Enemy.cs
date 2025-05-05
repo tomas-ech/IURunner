@@ -7,8 +7,7 @@ public class Enemy : MonoBehaviour
     public float idleTime = 2f;
     [SerializeField] private int damage = 25;
 
-    [SerializeField] protected bool canDoDamage = true;
-
+    public bool canDoDamage = false;
     public Animator animator;
     public Rigidbody2D rigidBody;
 
@@ -17,7 +16,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float groundDistance;
     [SerializeField] protected Transform wallChecker;
     [SerializeField] protected float wallDistance;
-
     [SerializeField] private LayerMask groundMask;
 
     public EnemyStateMachine stateMachine {  get; private set; }
@@ -83,5 +81,22 @@ public class Enemy : MonoBehaviour
     {
         Gizmos.DrawLine(groundChecker.position, new Vector3(groundChecker.position.x, groundChecker.position.y - groundDistance));
         Gizmos.DrawLine(wallChecker.position, new Vector3(wallChecker.position.x + wallDistance * currentDirection, wallChecker.position.y));
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<Player>(out var player) && canDoDamage)
+        {
+            player.ReceiveDamage(damage);
+        }
+
+    }
+
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.TryGetComponent<Player>(out var player) && canDoDamage)
+        {
+            player.ReceiveDamage(damage);
+        }
     }
 }
