@@ -53,7 +53,7 @@ MonoBehaviour:
   speed: 2
   idleTime: 2
   damage: 25
-  canDoDamage: 1
+  canDoDamage: 0
   animator: {fileID: 5626081298436871281}
   rigidBody: {fileID: 5742387597791217667}
   groundChecker: {fileID: 3741144475155600068}
@@ -97,7 +97,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!61 &8525526273977252211
 BoxCollider2D:
   m_ObjectHideFlags: 0

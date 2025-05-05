@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyPidgey : Enemy
@@ -33,4 +31,10 @@ public class EnemyPidgey : Enemy
     {
         base.Update();
     }
+
+    protected override void OnTriggerEnter2D(Collider2D collision)
+    {
+        base.OnTriggerEnter2D(collision);
+    }
+
 }

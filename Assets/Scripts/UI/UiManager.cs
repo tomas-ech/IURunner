@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -45,15 +43,20 @@ public class UiManager : MonoBehaviour
         SmoothUpdate(lifeBar, lifeText, player.Health);
         score.text = player.Score.ToString();
 
-        if (player.Health <= 0)
+        if (player.Health <= 0 || player.Score >= 100)
         {
-            endGameText.text = "Game Over";
-            endGameText.color = Color.red;
-
-            LeanTween.alphaCanvas(endGameView, 1, 1.5f);
-            endGameView.interactable = true;
-            endGameView.blocksRaycasts = true;
+            ActiveGameOverScreen(player.Score >= 100 ? "Victory" : "Game Over", player.Score >= 100 ? Color.blue : Color.red);
         }
+    }
+
+    private void ActiveGameOverScreen(string title, Color titleColor)
+    {
+        endGameText.text = title;
+        endGameText.color = titleColor;
+
+        LeanTween.alphaCanvas(endGameView, 1, 1.5f);
+        endGameView.interactable = true;
+        endGameView.blocksRaycasts = true;
     }
 
     private void SmoothUpdate(Image imageToUpdate, TextMeshProUGUI textToUpdate, float amount)

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyState
@@ -7,7 +5,6 @@ public class EnemyState
     protected EnemyStateMachine stateMachine;
     protected Enemy enemy;
 
-    protected bool isTriggered;
     protected float stateTimer;
 
     private string animBoolName;
@@ -21,7 +18,6 @@ public class EnemyState
 
     public virtual void Enter()
     {
-        isTriggered = false;
         enemy.animator.SetBool(animBoolName, true);
     }
 

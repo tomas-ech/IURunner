@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+
+
 using UnityEngine;
 
 public class PikachuAttackState : EnemyState
@@ -15,6 +15,9 @@ public class PikachuAttackState : EnemyState
     {
         base.Enter();
         stateTimer = enemyPikachu.attackTime;
+        enemyPikachu.canDoDamage = true;
+
+        enemyPikachu.rigidBody.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
     }
     public override void Update()
     {
@@ -24,10 +27,15 @@ public class PikachuAttackState : EnemyState
         {
             stateMachine.ChangeState(enemyPikachu.moveState);
         }
+
+        
     }
 
     public override void Exit()
     {
         base.Exit();
+        enemyPikachu.canDoDamage = false;
+        enemyPikachu.rigidBody.constraints = RigidbodyConstraints2D.None;
+        enemyPikachu.rigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }

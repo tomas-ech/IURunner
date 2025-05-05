@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class EnemyVulpix : Enemy
@@ -31,7 +28,10 @@ public class EnemyVulpix : Enemy
     {
         base.Start();
         stateMachine.Initialize(idleState);
-        transform.Rotate(0, 180 * attackDirection, 0);
+        if (attackDirection < 0)
+        {
+            transform.Rotate(0, 180, 0);
+        }
     }
 
     protected override void Update()
@@ -41,7 +41,7 @@ public class EnemyVulpix : Enemy
 
     public RaycastHit2D IsPlayerDetected()
     {
-       return Physics2D.Raycast(wallChecker.position, Vector2.right * attackDirection, wallDistance, playerMask);
+        return Physics2D.Raycast(wallChecker.position, Vector2.right * attackDirection, wallDistance, playerMask);
     }
 
     public void ShootAttack()

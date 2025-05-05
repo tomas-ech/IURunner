@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
@@ -26,7 +24,7 @@ public class AudioManager : MonoBehaviour
     {
         if (index < soundEffects.Length)
         {
-            soundEffects[index].pitch = RandomGenerator.GetRandomFloat(0.85f, 1.15f);
+            soundEffects[index].pitch = RandomGenerator.GetRandomFloat(0.8f, 1.15f);
             soundEffects[index].Play();
         }
     }
